@@ -1,0 +1,659 @@
+/* fonts 
+  */
+
+
+body {
+  background: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  color: #181818;
+}
+
+#bloc_page {
+  max-width: 1440px;
+  margin: auto;
+}
+
+
+
+
+/* Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#titre_principal {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#logo img {
+  width: auto;
+  height: auto;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1,3em;
+  font-weight: medium;
+  padding: 0;
+  margin: 0;
+}
+
+header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Navigation */
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+
+nav a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #0065FC;
+  padding-bottom: 3px;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav a:hover {
+  color: #0065FC;
+  border-top: 2px solid #0065FC;
+  padding-top: 50px;
+}
+
+#sub_link
+{
+  font-weight: 600;
+}
+
+#activ_link
+{
+  color: black;
+}
+
+/* Corps */
+#lieu
+{
+  margin-top: 5px;;
+}
+
+#titre_lieu
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#phrase_section1
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* research */
+
+form
+{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+
+#searchbutton
+{
+  color: rgb(250, 252, 252);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #0065FC;
+  border-radius: 0% 20px 20px 0%;
+  border: #0065FC;
+  padding: 20px;
+  margin: 0;
+}
+
+input
+{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 5px #555050;
+  font-size: 1.2em;
+  margin: 0;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 20px 20px 18px 20px;
+  outline: none;
+}
+#logomap
+{
+  color: black;
+  font-size: 1.2em;
+  background-color: #f2f2f2;
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px;
+  margin: 0;
+}
+
+/* filtres lieux*/
+
+#filtre_lieu
+{
+  color: black;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+#bloc_filtre
+{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#ecolink
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-top: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+  border-right: 2px solid #d9d9d9;
+  border-radius: 40px;
+  padding: 0;
+  max-height: 50px;
+}
+
+#moneylogo
+{
+  color: #0065FC;
+  font-size: 1.2em;
+  background: #deebff;
+  border-radius: 40px;
+  padding: 18px 15px 18px 18px;
+  max-height: 48px;
+}
+
+#moneylogofam
+{
+  color: #0065FC;
+  font-size: 1.2em;
+  background: #deebff;
+  border-radius: 40px;
+  padding: 18px 20px 18px 20px;
+  line-height: 1em;
+}
+
+
+#ecoword
+{
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#ligne_infos
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo_info
+{
+  color: #0065FC;
+  font-size: 1.2em;
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+#infoword
+{
+  font-family: 'Raleway', sans-serif;
+  font-weight: medium;
+  padding: 0;
+}
+
+/* section hebergement, populaire */
+
+#apercu
+{
+  display: flex;
+  margin-top: 15px;
+}
+
+#hebergement
+{
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 1px;
+  
+}
+
+#titre_apercu
+{
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 1.4em;
+}
+
+#art_heb1
+{
+  background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% -65%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb1
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#art_heb2
+{
+  background: url('../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% -55%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb2
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#art_heb3
+{
+  background: url('../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% -50%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb3
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#art_heb4
+{
+  background: url('../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% 170%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb4
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#art_heb5
+{
+  background: url('../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% -13%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb5
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#art_heb6
+{
+  background: url('../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat;
+  background-size: 100%;
+  background-position: 50% 73%;
+  width: 245px;
+  height: 200px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+  line-height: 45%;
+}
+
+#link_heb6
+{
+  height: 80px;
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 0px 0px 13px 13px;
+  padding-left: 10px;
+}
+
+#logo_star
+{
+  color: #0065FC;
+}
+
+#logo_star_grey
+{
+  color: #d9d9d9;
+}
+
+#flex_art
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+/* section populaire */
+
+#populaire
+{
+  background: #f2f2f2;
+  border-radius: 20px;
+  
+}
+
+#art_pop1
+{
+  background: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat;
+  background-size: 240px;
+  background-position: -50% 50%;
+  width: 345px;
+  height: 145px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#link_pop1
+{
+  width: 205px;
+  background: #ffffff;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 0px 13px 13px 0px;
+  display: flex;
+  flex-direction: column;
+  }
+
+  #end_star_pop1
+  {
+    color: #181818;
+    font-size: 0.6em;
+    padding-left: 20px;
+    width: 150px;
+    margin-top: 15px;
+  }
+
+  #def_pop1
+  {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 15px;
+    line-height: 1.2em;
+  }
+
+  #par_pop1
+  {
+margin-bottom: 25px;
+font-size: 0.8em;
+  }
+
+  #titre_pop1
+  {
+   padding: 1px;
+   margin: 10px 5px 1px 1px;
+  }
+
+  #art_pop2
+{
+  background: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat;
+  background-size: 240px;
+  background-position: -50% 50%;
+  width: 345px;
+  height: 145px;
+  margin: 5px 15px 15px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#link_pop2
+{
+  width: 205px;
+  background: #ffffff;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 0px 13px 13px 0px;
+  display: flex;
+  flex-direction: column;
+  }
+
+  #end_star_pop2
+  {
+    color: #181818;
+    font-size: 0.6em;
+    padding-left: 20px;
+    width: 150px;
+    margin-top: 15px;
+  }
+
+  #def_pop2
+  {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-left: 15px;
+    line-height: 1.2em;
+  }
+
+  #par_pop2
+  {
+margin-bottom: 25px;
+font-size: 0.8em;
+  }
+
+  #titre_pop2
+  {
+   padding: 1px;
+   margin: 10px 5px 1px 1px;
+  }
+
+
+
+  #art_pop3
+  {
+    background: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat;
+    background-size: 240px;
+    background-position: -50% 50%;
+    width: 345px;
+    height: 145px;
+    margin: 5px 15px 15px 15px;
+    border-radius: 17px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  #link_pop3
+  {
+    width: 205px;
+    background: #ffffff;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 0px 13px 13px 0px;
+    display: flex;
+    flex-direction: column;
+    }
+  
+    #end_star_pop3
+    {
+      color: #181818;
+      font-size: 0.6em;
+      padding-left: 20px;
+      width: 150px;
+      margin-top: 15px;
+    }
+  
+    #def_pop3
+    {
+      font-size: 0.8em;
+      display: flex;
+      flex-direction: column;
+      width: 145px;
+      padding-top: 1px;
+      padding-right: 10px;
+      padding-left: 15px;
+      line-height: 1.2em;
+    }
+  
+    #par_pop3
+    {
+  margin-bottom: 25px;
+  font-size: 0.8em;
+    }
+  
+    #titre_pop3
+    {
+     padding: 1px;
+     margin: 10px 5px 1px 1px;
+    }
+    
