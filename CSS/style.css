@@ -20,18 +20,18 @@ header {
   align-items: flex-end;
 }
 
-#titre_principal {
+.titre_principal {
   display: flex;
   flex-direction: column;
 }
 
-#logo {
+.logo {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
-#logo img {
+.logo img {
   width: auto;
   height: auto;
 }
@@ -79,20 +79,20 @@ nav a:hover {
   padding-top: 50px;
 }
 
-#sub_link {
+.sub_link {
   font-weight: 600;
 }
 
-#activ_link {
+.activ_link {
   color: black;
 }
 
 /* Corps */
-#lieu {
+.lieu {
   margin-top: 5px;
 }
 
-#titre_lieu {
+.titre_lieu {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #181818;
@@ -101,7 +101,7 @@ nav a:hover {
   padding: 0;
 }
 
-#phrase_section1 {
+.phrase_section1 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   padding: 0;
@@ -119,7 +119,7 @@ form {
   margin-top: 35px;
 }
 
-#searchbutton {
+.searchbutton {
   color: rgb(250, 252, 252);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -144,7 +144,7 @@ input {
   padding: 20px 20px 18px 20px;
   outline: none;
 }
-#logomap {
+#icon_search {
   color: black;
   font-size: 1.2em;
   background-color: #f2f2f2;
@@ -155,19 +155,19 @@ input {
 
 /* filtres lieux*/
 
-#filtre_lieu {
+.filtre_lieu {
   color: black;
   font-size: 1.2em;
   padding: 10px;
 }
 
-#bloc_filtre {
+.bloc_filtre {
   font-family: "Raleway", sans-serif;
   display: flex;
   align-items: center;
   margin-top: 5px;
 }
-#ecolink {
+.ecolink {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -184,7 +184,7 @@ input {
   max-height: 50px;
 }
 
-#moneylogo {
+.fas {
   color: #0065fc;
   font-size: 1.2em;
   background: #deebff;
@@ -202,19 +202,19 @@ input {
   line-height: 1em;
 }
 
-#ecoword {
+.ecoword {
   font-weight: bold;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#ligne_infos {
+.ligne_infos {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#logo_info {
+#icon_info {
   color: #0065fc;
   font-size: 1.2em;
   background: #ffffff;
@@ -228,7 +228,7 @@ input {
   margin-right: 15px;
 }
 
-#infoword {
+.infoword {
   font-family: "Raleway", sans-serif;
   font-weight: medium;
   padding: 0;
