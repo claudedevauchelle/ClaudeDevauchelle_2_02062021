@@ -246,7 +246,7 @@ input {
 /* section hebergement, populaire */
 .titre_heb
 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .par_heb
@@ -275,7 +275,6 @@ input {
   margin: 5px 15px 25px 15px;
   border-radius: 17px;
   border: 3px solid white;
-  
   max-height: 190px;
   max-width: 235px;
 }
@@ -283,7 +282,7 @@ input {
 .link_heb {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   background: white;
   color: black;
   text-decoration: none;
@@ -292,7 +291,8 @@ input {
   max-width: 235px;
   min-width: 235px;
   min-height: 190px;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  
   
 }
 
@@ -307,6 +307,8 @@ input {
 .nom_prix
 {
   padding-left: 10px;
+  line-height: 0.2em;
+  
 }
 
 .fas.fa-star {
@@ -338,56 +340,74 @@ input {
 }
 
 .vignette_pop {
-  margin: 5px 15px 25px 15px;
+  width: 345px;
+  height: 145px;
+  margin: 5px 15px 15px 15px;
   border-radius: 17px;
   border: 3px solid white;
-  background-color: white;
-  max-height: 135px;
-  max-width: 335px;
+  display: flex;
+ 
+ 
 }
 
 .link_pop {
-  background: white;
+  width: 345px;
+  height: 145px;
+  background: #ffffff;
   color: black;
+  font-size: 1.2em;
   text-decoration: none;
-  border-radius: 13px;
-  max-height: 135px;
-  max-width: 335px;
-  min-width: 335px;
-  min-height: 135px;
+  border-radius: 13px 13px 13px 13px;
+  display: flex;
+  
+  
 }
 
 .pict_pop
 {
   border-radius: 14px 0px 0px 14px;
   width: 125px;
-  height: 135px;
+  height: 145px;
   object-fit: cover;
+  
 }
 
 .end_star_pop {
   color: #181818;
   font-size: 0.8em;
-  margin-top: 1px;
+  padding-left: 15px;
+  width: 150px;
+  margin-top: 15px;
+  
+
 }
 
 .nom_prix_pop
 {
-  width: 135px;
+  width: 190px;
   padding-top: 1px;
   padding-right: 10px;
   padding-left: 15px;
+  line-height: 0.8em;
 }
 
-#par_pop {
-  margin-bottom: 2px;
-  font-size: 0.8em;
+
+.par_pop {
+  margin-bottom: 25px;
+  font-size: 0.7em;
 }
 
-#titre_pop {
+.titre_pop {
   padding: 1px;
-  margin: 1px 5px 1px 1px;
-  font-size: 1em;
+  margin: 10px 5px 1px 1px;
+  font-size: 0.9em;
+  
+}
+
+.grouptext_pop
+{
+  display: flex;
+  flex-direction: column;
 }
 
 /*
