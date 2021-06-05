@@ -7,7 +7,7 @@ body {
   color: #181818;
 }
 
-#bloc_page {
+.bloc_page {
   max-width: 1440px;
   margin: auto;
 }
@@ -38,7 +38,7 @@ header {
 
 header h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 1, 3em;
+  font-size: 1.3;
   font-weight: medium;
   padding: 0;
   margin: 0;
@@ -184,7 +184,7 @@ input {
   max-height: 50px;
 }
 
-.fas {
+.fas.fa-money-bill-wave {
   color: #0065fc;
   font-size: 1.2em;
   background: #deebff;
@@ -193,13 +193,31 @@ input {
   max-height: 48px;
 }
 
-#moneylogofam {
+.fas.fa-child{
   color: #0065fc;
   font-size: 1.2em;
   background: #deebff;
   border-radius: 40px;
   padding: 18px 20px 18px 20px;
   line-height: 1em;
+}
+
+.fas.fa-heart {
+  color: #0065fc;
+  font-size: 1.2em;
+  background: #deebff;
+  border-radius: 40px;
+  padding: 18px 15px 18px 18px;
+  max-height: 48px;
+}
+
+.fas.fa-dog {
+  color: #0065fc;
+  font-size: 1.2em;
+  background: #deebff;
+  border-radius: 40px;
+  padding: 18px 15px 18px 18px;
+  max-height: 48px;
 }
 
 .ecoword {
@@ -214,7 +232,7 @@ input {
   align-items: center;
 }
 
-#icon_info {
+.fas.fa-info {
   color: #0065fc;
   font-size: 1.2em;
   background: #ffffff;
@@ -235,195 +253,81 @@ input {
 }
 
 /* section hebergement, populaire */
+.titre_heb
+{
+  font-size: 1em;
+}
 
-#apercu {
+.par_heb
+{
+  font-size: 0.8em;
+}
+
+.apercu {
   display: flex;
   margin-top: 15px;
 }
 
-#hebergement {
+.hebergement {
   background: #f2f2f2;
   border-radius: 20px;
   padding: 1px;
 }
 
-#titre_apercu {
+.titre_apercu {
   padding-left: 30px;
   padding-top: 20px;
   font-size: 1.4em;
 }
 
-#art_heb1 {
-  background: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% -65%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
+.vignette_heb {
+  margin: 5px 15px 25px 15px;
   border-radius: 17px;
   border: 3px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
+  justify-content: flex-center;
+  line-height: 35%;
+  background-color: white;
+  max-height: 190px;
+  max-width: 235px;
 }
 
-#link_heb1 {
-  height: 80px;
+.link_heb {
   background: white;
   color: black;
-  font-size: 0.8em;
+ 
   text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
+  border-radius: 13px;
+  max-height: 190px;
+  max-width: 235px;
+  min-width: 235px;
+  min-height: 190px;
+}
+
+.pict_heb
+{
+  border-radius: 14px 14px 0px 0px;
+  width: 235px;
+  height: 110px;
+  object-fit: cover;
+}
+
+.nom_prix
+{
   padding-left: 10px;
 }
 
-#art_heb2 {
-  background: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% -55%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
-  border-radius: 17px;
-  border: 3px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
-}
-
-#link_heb2 {
-  height: 80px;
-  background: white;
-  color: black;
-  font-size: 0.8em;
-  text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
-  padding-left: 10px;
-}
-
-#art_heb3 {
-  background: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% -50%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
-  border-radius: 17px;
-  border: 3px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
-}
-
-#link_heb3 {
-  height: 80px;
-  background: white;
-  color: black;
-  font-size: 0.8em;
-  text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
-  padding-left: 10px;
-}
-
-#art_heb4 {
-  background: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% 170%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
-  border-radius: 17px;
-  border: 3px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
-}
-
-#link_heb4 {
-  height: 80px;
-  background: white;
-  color: black;
-  font-size: 0.8em;
-  text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
-  padding-left: 10px;
-}
-
-#art_heb5 {
-  background: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% -13%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
-  border-radius: 17px;
-  border: 3px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
-}
-
-#link_heb5 {
-  height: 80px;
-  background: white;
-  color: black;
-  font-size: 0.8em;
-  text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
-  padding-left: 10px;
-}
-
-#art_heb6 {
-  background: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
-    no-repeat;
-  background-size: 100%;
-  background-position: 50% 73%;
-  width: 245px;
-  height: 200px;
-  margin: 5px 15px 15px 15px;
-  border-radius: 17px;
-  border: 3px solid white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-  line-height: 45%;
-}
-
-#link_heb6 {
-  height: 80px;
-  background: white;
-  color: black;
-  font-size: 0.8em;
-  text-decoration: none;
-  border-radius: 0px 0px 13px 13px;
-  padding-left: 10px;
-}
-
-#logo_star {
+.fas.fa-star {
   color: #0065fc;
+  font-size: 0.8em;
 }
 
 #logo_star_grey {
   color: #d9d9d9;
 }
 
-#flex_art {
+.flex_art {
   display: flex;
   flex-wrap: wrap;
   margin: 15px;
@@ -431,12 +335,88 @@ input {
 
 /* section populaire */
 
-#populaire {
+.populaire {
   background: #f2f2f2;
   border-radius: 20px;
 }
 
-#art_pop1 {
+.flex_art_pop1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.vignette_pop {
+  margin: 5px 15px 25px 15px;
+  border-radius: 17px;
+  border: 3px solid white;
+  background-color: white;
+  max-height: 135px;
+  max-width: 335px;
+  font-size: 1.3em;
+}
+
+.link_pop {
+  background: white;
+  color: black;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-radius: 13px;
+  max-height: 135px;
+  max-width: 335px;
+  min-width: 335px;
+  min-height: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-center;
+  
+  
+}
+
+.pict_pop
+{
+  border-radius: 14px 0px 0px 14px;
+  width: 125px;
+  height: 135px;
+  object-fit: cover;
+}
+
+.end_star_pop {
+  color: #181818;
+  font-size: 0.8em;
+
+  margin-top: 1px;
+}
+
+.nom_prix_pop
+{
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  width: 135px;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 15px;
+  line-height: 0.9em;
+}
+
+#par_pop {
+  margin-bottom: 2px;
+  font-size: 0.7em;
+}
+
+#titre_pop {
+  padding: 1px;
+  margin: 1px 5px 1px 1px;
+}
+
+/*
+.nom_prix
+{
+  padding-left: 10px;
+}
+
+.vignette_pop {
   background: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg")
     no-repeat;
   background-size: 240px;
@@ -600,3 +580,4 @@ input {
   padding: 1px;
   margin: 10px 5px 1px 1px;
 }
+*/
