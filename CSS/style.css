@@ -9,7 +9,7 @@ body {
 
 .bloc_page {
   max-width: 1440px;
-  margin-left: auto;
+  margin: auto;
 }
 
 /* Header*/
@@ -273,6 +273,15 @@ input {
   padding-top: 20px;
   font-size: 1.4em;
 }
+
+.fa-chart-line
+{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 1.4em;
+  padding-right: 15px;
+}
+
 .bot_apercu {
   padding-left: 20px;
   font-size: 1.2em;
