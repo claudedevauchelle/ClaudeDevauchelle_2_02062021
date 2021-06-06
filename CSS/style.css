@@ -415,19 +415,36 @@ input {
 
 .activites
 {
-  max-width: 1340px;;
+  max-width: 1340px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 .bloc_activites
 {
  display: flex;
  flex-direction: row;
- justify-content: space-around;
+ justify-content: space-between;
 }
 
 .colonne
 {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.titre_activites
+{
+  padding-left: 15px;
+  padding-bottom: 1px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.nom_activite
+{
+  padding-left: 15px;
 }
 
 .vignette_act1
