@@ -42,7 +42,7 @@
 
         <nav class="linktop">
           <ul>
-            <li><a href="#">Hébergements</a></li>
+            <li><a class="activ_link" href="#">Hébergements</a></li>
             <li><a class="activ_link" href="">Activités</a></li>
             <li><a class="sub_link" href="">S'inscrire</a></li>
           </ul>
@@ -221,12 +221,16 @@
               </a>
             </article>
           </div>
+          <h2 class="bot_apercu">Afficher plus</h2>
         </section>
 
            <!-- Section 4 populaire -->
             
         <section class="populaire">
-          <h1 class="titre_apercu">Les plus populaires</h1>
+          <div class="top_pop">
+            <h1 class="titre_apercu">Les plus populaires</h1>
+            <h1 class="titre_apercu"><i class="fas fa-chart-line"></i></h1>
+          </div>
           <div class="flex_art_pop">
             <article class="vignette_pop">
               <a class="link_pop" href="">
@@ -251,64 +255,165 @@
               </a>
             </article>
 
-            <!--    <article class="vignette_pop">
-              <a id="link_pop1" href="">
-                <div id="def_pop1">
-                  <h1 id="titre_pop1">Hôtel le soleil du matin</h1>
-                  <p id="par_pop1">Nuit à partir de 128€</p>
-                </div>
-                <div id="end_star_pop1">
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                </div>
-              </a>
-            </article>
-
-            <article id="art_pop2">
-              <a id="link_pop2" href="">
-                <div id="def_pop2">
-                  <h1 id="titre_pop2">Hôtel le soleil du matin</h1>
-                  <p id="par_pop2">Nuit à partir de 128€</p>
-                </div>
-                <div id="end_star_pop2">
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
+            <article class="vignette_pop">
+              <a class="link_pop" href="">
+                <img
+                  class="pict_pop"
+                  src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt=""
+                />
+                <div class="grouptext_pop">
+                  <div class="nom_prix_pop">
+                    <h1 class="titre_pop">Au coeur de l'eau Chambre d'hôtes</h1>
+                    <p class="par_pop">Nuit à partir de 71€</p>
+                  </div>
+                  <div class="end_star_pop">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="logo_star_grey" class="fas fa-star"></i>
+                  </div>
                 </div>
               </a>
             </article>
 
-            <article id="art_pop3">
-              <a id="link_pop3" href="">
-                <div id="def_pop3">
-                  <h1 id="titre_pop3">Hôtel le soleil du matin</h1>
-                  <p id="par_pop3">Nuit à partir de 128€</p>
-                </div>
-                <div id="end_star_pop3">
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
-                  <i id="logo_star" class="fas fa-star"></i>
+            <article class="vignette_pop">
+              <a class="link_pop" href="">
+                <img
+                  class="pict_pop"
+                  src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                  alt=""
+                />
+                <div class="grouptext_pop">
+                  <div class="nom_prix_pop">
+                    <h1 class="titre_pop">Hôtel Tout bleu et Blanc</h1>
+                    <p class="par_pop">Nuit à partir de 68 €</p>
+                  </div>
+                  <div class="end_star_pop">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i id="logo_star_grey" class="fas fa-star"></i>
+                  </div>
                 </div>
               </a>
             </article>
-
-            -->
           </div>
         </section>
       </section>
 
-      <!-- Section 5 Activités -->
+      <!-- Section 5 Activités 
+      
+      <article class="vignette_heb">
+              <a class="link_heb" href="">
+                <img
+                  class="pict_heb"
+                  src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                  alt=""
+                />
+                <div class="nom_prix">
+                  <h1 class="titre_heb">Hôtel de la mer</h1>
+                  <p class="par_heb">Nuit à partir de 46€</p>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </a>
+            </article>-->
 
-      <section id="activites"></section>
+      <section class="activites">
+        <h1 class="titre_apercu">Activités à Marseille</h1>
+        <div class="bloc_activites">
+          <div class="colonne">
+            <article class="vignette_act1">
+              <a class="link_act1" href="">
+                <img class="pict_activite_1"
+                src="/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                alt=""
+                />
+                <div class="nom_activité_1">
+                  <h1 class="titre_activite_1">Vieux Port</h1>
+                </div>
+              </a>
+            </article>
+
+          </div>
+          <div class="colonne">
+            <article class="vignette_act2">
+            <a class="link_act2" href="">
+              <img class="pict_activite_2"
+              src="/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              alt=""
+              />
+              <div class="nom_activité_2">
+                <h1 class="titre_activite_2">Port de Pomègues</h1>
+              </div>
+            </a>
+          </article>
+
+          <article class="vignette_act3">
+          <a class="link_act3" href="">
+            <img class="pict_activite_3"
+            src="/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+            alt=""
+            />
+            <div class="nom_activité_3">
+              <h1 class="titre_activite_3">Îles de Frioul</h1>
+            </div>
+          </a>
+        </article>
+
+          </div>
+          <div class="colonne">
+            <article class="vignette_act4">
+              <a class="link_act4" href="">
+                <img class="pict_activite_4"
+                src="/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                alt=""
+                />
+                <div class="nom_activité_4">
+                  <h1 class="titre_activite_4">Parc National des Calanques</h1>
+                </div>
+              </a>
+            </article>
+
+          </div>
+          <div class="colonne">
+            <article class="vignette_act5">
+              <a class="link_act5" href="">
+                <img class="pict_activite_5"
+                src="/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                alt=""
+                />
+                <div class="nom_activité_5">
+                  <h1 class="titre_activite_2">Notre-Dame-de-la-Garde</h1>
+                </div>
+              </a>
+            </article>
+  
+            <article class="vignette_act6">
+            <a class="link_act6" href="">
+              <img class="pict_activite_6"
+              src="/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+              alt=""
+              />
+              <div class="nom_activité_6">
+                <h1 class="titre_activite_6">Parc Longchamp</h1>
+              </div>
+            </a>
+          </article>
+
+          </div>
+        </div>
+      </section>
              
-      <footer>   </footer>
+      <footer>
+
+      </footer>
     </div>
   </body>
 </html>
