@@ -312,7 +312,7 @@ input {
 
 .nom_prix {
   padding-left: 10px;
-  line-height: 0.2em;
+  line-height: 0.6em;
 }
 
 .fas.fa-star {
@@ -320,7 +320,25 @@ input {
   font-size: 0.8em;
 }
 
-#logo_star_grey {
+#logo_star_grey1 {
+  color: #d9d9d9;
+}
+#logo_star_grey2 {
+  color: #d9d9d9;
+}
+#logo_star_grey3 {
+  color: #d9d9d9;
+}
+#logo_star_grey4 {
+  color: #d9d9d9;
+}
+#logo_star_grey5 {
+  color: #d9d9d9;
+}
+#logo_star_grey6 {
+  color: #d9d9d9;
+}
+#logo_star_grey7 {
   color: #d9d9d9;
 }
 
@@ -440,6 +458,7 @@ input {
 
 .nom_activite {
   padding-left: 15px;
+  font-size: 0.7em;
 }
 
 .vignette_act1 {
