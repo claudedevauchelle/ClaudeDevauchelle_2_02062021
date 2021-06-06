@@ -10,6 +10,7 @@ body {
 .bloc_page {
   max-width: 1440px;
   margin: auto;
+  padding-left: 25px;
 }
 
 /* Header*/
@@ -235,10 +236,7 @@ input {
   background: #ffffff;
   border: 2px solid #d9d9d9;
   border-radius: 40px;
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 20px;
+  padding: 8px 14px 8px 14px;
   font-weight: bold;
   margin-right: 15px;
 }
@@ -260,17 +258,19 @@ input {
 
 .apercu {
   display: flex;
+  justify-content: flex-start;
+  min-width: 1340px;
   max-width: 1340px;
+  margin-left: -25px;
 }
 
 #hebergement {
   background: #f2f2f2;
   border-radius: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0px;
-  max-width: 880px;
+  max-width: 820px;
   min-width: 545px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .titre_apercu {
@@ -279,10 +279,9 @@ input {
   font-size: 1.4em;
 }
 
-.fa-chart-line
-{
+.fa-chart-line {
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
   font-size: 1.4em;
   padding-right: 15px;
 }
@@ -294,7 +293,7 @@ input {
 }
 
 .vignette_heb {
-  margin: 15px 15px 15px 15px;
+  margin: 16px;
   border-radius: 17px;
   border: 3px solid white;
   max-height: 190px;
@@ -367,7 +366,8 @@ input {
   background: #f2f2f2;
   border-radius: 20px;
   max-width: 420px;
-  margin: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .top_pop {
@@ -377,16 +377,15 @@ input {
 }
 
 .flex_art_pop {
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .vignette_pop {
   width: 335px;
   height: 135px;
-  margin: 15px 15px 15px 15px;
+  margin: 15px;
   border-radius: 17px;
   border: 3px solid white;
   display: flex;
@@ -446,10 +445,12 @@ input {
 /* activités */
 
 #activites {
-  max-width: 1340px;
+  max-width: 1300px;
+  min-width: 1300px;
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  margin-left: -10px;
 }
 .bloc_activites {
   display: flex;
