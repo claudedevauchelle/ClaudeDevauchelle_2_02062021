@@ -254,6 +254,7 @@ input {
 
 .apercu {
   display: flex;
+  max-width: 1340px;
 }
 
 .hebergement {
@@ -325,6 +326,7 @@ input {
 .flex_art {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 /* section populaire */
@@ -332,27 +334,27 @@ input {
 .populaire {
   background: #f2f2f2;
   border-radius: 20px;
-  width: 420px;
+  max-width: 420px;
   margin: 0px;
 }
 
 .top_pop {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
+  padding-right: 15px;
 }
 
 .flex_art_pop {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .vignette_pop {
   width: 335px;
   height: 135px;
-  margin: 15px 0px 15px 15px;
+  margin: 15px 15px 15px 15px;
   border-radius: 17px;
   border: 3px solid white;
   display: flex;
@@ -411,10 +413,15 @@ input {
 
 /* activités */
 
+.activites
+{
+  max-width: 1340px;;
+}
 .bloc_activites
 {
  display: flex;
  flex-direction: row;
+ justify-content: space-around;
 }
 
 .colonne
