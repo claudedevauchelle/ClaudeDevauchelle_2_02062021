@@ -105,7 +105,12 @@ form {
   margin-top: 35px;
 }
 
-.searchbutton {
+span.searchbutton_icon > img
+{
+  height: 32px;
+}
+
+.searchbutton_icon, .buttonbackground {
   color: rgb(250, 252, 252);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -116,6 +121,8 @@ form {
   padding: 20px;
   margin: 0;
 }
+
+
 
 input {
   color: black;
@@ -176,7 +183,8 @@ input {
   background-color: #0065fc;
 }
 
-.fas.fa-money-bill-wave {
+.icon_filtre
+{
   color: #0065fc;
   font-size: 1.2em;
   background: #deebff;
@@ -185,37 +193,6 @@ input {
   max-height: 48px;
   min-width: 18px;
   max-width: 20px;
-}
-
-.fas.fa-child {
-  color: #0065fc;
-  font-size: 1.2em;
-  background: #deebff;
-  background-size: 48px 48px;
-  border-radius: 40px;
-  padding: 19px 18px 18px 18px;
-  max-height: 48px;
-  min-width: 18px;
-}
-
-.fas.fa-heart {
-  color: #0065fc;
-  font-size: 1.2em;
-  background: #deebff;
-  border-radius: 40px;
-  padding: 19px 18px 18px 18px;
-  max-height: 48px;
-}
-
-.fas.fa-dog {
-  color: #0065fc;
-  font-size: 1.2em;
-  background: #deebff;
-  border-radius: 40px;
-  padding: 19px 18px 18px 18px;
-  max-height: 48px;
-  min-width: 18px;
-  max-width: 18px;
 }
 
 .ecoword {
@@ -328,32 +305,15 @@ input {
   line-height: 0.6em;
 }
 
-.fas.fa-star {
+.fa-star {
   color: #0065fc;
   font-size: 0.8em;
 }
 
-#logo_star_grey1 {
+.fa-star_grey {
   color: #d9d9d9;
 }
-#logo_star_grey2 {
-  color: #d9d9d9;
-}
-#logo_star_grey3 {
-  color: #d9d9d9;
-}
-#logo_star_grey4 {
-  color: #d9d9d9;
-}
-#logo_star_grey5 {
-  color: #d9d9d9;
-}
-#logo_star_grey6 {
-  color: #d9d9d9;
-}
-#logo_star_grey7 {
-  color: #d9d9d9;
-}
+
 
 .flex_art {
   display: flex;
@@ -476,190 +436,87 @@ input {
   font-size: 0.7em;
 }
 
-.vignette_act1 {
+.vign_caract_act
+{
   margin: 15px 15px 15px 15px;
   max-width: 300px;
-  max-height: 445px;
   border-radius: 17px;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
+}
+
+.link_caract_act
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgb(255, 255, 255);
+  color: black;
+  text-decoration: none;
+  border-radius: 13px;
+  max-width: 300px;
+  min-width: 300px;
+  padding: 0px 0px 0px 0px;
+}
+
+.pict_caract_act
+{
+  border-radius: 14px 14px 0px 0px;
+  width: 300px;
+  object-fit: cover;
 }
 
 .link_act1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 445px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 445px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_1 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 385px;
-  object-fit: cover;
-}
-
-.vignette_act2 {
-  margin: 15px 15px 15px 15px;
-  max-width: 300px;
-  max-height: 235px;
-  border-radius: 17px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .link_act2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 235px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 235px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_2 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 180px;
-  object-fit: cover;
-}
-
-.vignette_act3 {
-  margin: 15px 15px 15px 15px;
-  max-width: 300px;
-  max-height: 165px;
-  border-radius: 17px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .link_act3 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 165px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 165px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_3 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 110px;
-  object-fit: cover;
-}
-
-.vignette_act4 {
-  margin: 15px 15px 15px 15px;
-  max-width: 300px;
-  max-height: 445px;
-  border-radius: 17px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .link_act4 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 445px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 445px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_4 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 385px;
-  object-fit: cover;
-}
-
-.vignette_act5 {
-  margin: 15px 15px 15px 15px;
-  max-width: 300px;
-  max-height: 195px;
-  border-radius: 17px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .link_act5 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 195px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 195px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_5 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 140px;
-  object-fit: cover;
-}
-
-.vignette_act6 {
-  margin: 15px 15px 15px 15px;
-  max-width: 300px;
-  max-height: 210px;
-  border-radius: 17px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .link_act6 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: rgb(255, 255, 255);
-  color: black;
-  text-decoration: none;
-  border-radius: 13px;
   max-height: 210px;
-  max-width: 300px;
-  min-width: 300px;
   min-height: 210px;
-  padding: 0px 0px 0px 0px;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
 .pict_activite_6 {
-  border-radius: 14px 14px 0px 0px;
-  width: 300px;
   height: 150px;
-  object-fit: cover;
 }
 
 /* FOOTER  */
@@ -698,8 +555,22 @@ footer {
   list-style-type: none;
 }
 
-/* @media QUERY */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (min-width: 641px) {
+  span.searchbutton_icon {display:none}
+  span.searchbutton {display:inline-block}
+}
+
+@media (max-width: 640px) {
+  span.searchbutton_icon {display:inline-block}
+  span.searchbutton {display:none}
+}
+
+
+/* @media QUERY 
+@media all and (max-width: 1024px)           */
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)*/ 
+@media all and (max-width: 1024px)  
+{
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
@@ -707,10 +578,18 @@ footer {
     font-size: 1.2em;
   }
 
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 130px;
+    min-height: 130px;
+  }
+
   .bloc_page {
-    width: auto;
+    max-width: 375px;
+    min-width: 375px;
     margin: auto;
-    padding-left: 25px;
+    padding-left: 0px;
   }
   nav ul {
     list-style-type: none;
@@ -734,21 +613,68 @@ footer {
   .bloc_filtre {
     font-family: "Raleway", sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
     margin-top: 5px;
+  }
+
+   form
+   {
+     max-width: 375px;
+   }
+
+  .searchbutton {
+    color: rgb(250, 252, 252);
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #0065fc;
+    border-radius: 20px 20px 20px 20px;
+    border: #0065fc;
+    padding: 20px;
+    margin: 0;
+    width: 70px;
+  }
+  
+  input {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 5px #555050;
+    font-size: 1em;
+    margin: 0;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 20px 22px 20px;
+    outline: none;
+    width: 240px;
+  }
+  #icon_search {
+    color: black;
+    font-size: 1.2em;
+    background-color: #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+    padding: 22px;
+    margin: 0;
+    width: 20px;
   }
   .apercu {
     display: flex;
     flex-direction: column;
-    width: 640px;
+    width: 350px;
     margin-left: -25px;
+  }
+
+  .flex_art {
+    display: flex;
+    flex-direction: column;
   }
 
   #hebergement {
     background: #f2f2f2;
     border-radius: 20px;
-    width: 640px;
+    max-width: 350px;
+    min-width: 350px;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -828,7 +754,7 @@ footer {
     flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 5px;
-    max-width: 700px;
+    max-width: 300px;
   }
   .apercu {
     display: flex;
@@ -874,6 +800,7 @@ footer {
     background-color: #f2f2f2;
     color: black;
     font-family: "Raleway", sans-serif;
+    width: 1440px;
   }
 
   .infos {
