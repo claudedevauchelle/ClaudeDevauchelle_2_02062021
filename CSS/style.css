@@ -609,13 +609,13 @@ footer {
   .activ_link {display:none}
 }
 
-
 /* @media QUERY 
 @media all and (max-width: 1024px)           */
 /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)*/ 
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */ 
-@media all and (max-width: 540px)
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
 {
   body {
     background: #ffffff;
@@ -623,6 +623,11 @@ footer {
     color: #181818;
     font-size: 1.2em;
   }
+  
+  span.searchbutton_icon {display:inline-block}
+  span.searchbutton {display:none}
+  .bot_activ_link {display:inline-block}
+  .activ_link {display:none}
 
   header {
     display: flex;
