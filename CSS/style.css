@@ -588,7 +588,7 @@ footer {
 
 /* ----  MEDIA QUERY -- */
 
-@media (min-width: 376px) {
+@media (min-width: 541px) {
   span.searchbutton_icon {
     display: none;
   }
@@ -600,7 +600,7 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 540px) {
   span.searchbutton_icon {
     display: inline-block;
   }
@@ -621,10 +621,7 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
+@media all and (max-width: 1024px) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
