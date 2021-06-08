@@ -628,7 +628,7 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */ 
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1126px)
 {
   body {
     background: #ffffff;
