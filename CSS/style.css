@@ -39,6 +39,7 @@ header {
 
 /* Navigation */
 
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -72,6 +73,42 @@ nav a:hover {
 .activ_link {
   color: black;
 }
+
+.bot_activ_link
+{
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: -40px;
+}
+
+.bot_activ_link a
+{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #181818;
+  border-bottom: 4px solid #c3c5c7;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+  
+}
+
+.bot_activ_link ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.bot_activ_link a:hover {
+  color: #0065fc;
+  border-bottom: 4px solid #0065fc;
+  padding-bottom: 10px;
+}
+
+
 
 /* Corps */
 .lieu {
@@ -555,21 +592,30 @@ footer {
   list-style-type: none;
 }
 
+
+/* ----  MEDIA QUERY -- */
+
+
 @media (min-width: 641px) {
   span.searchbutton_icon {display:none}
   span.searchbutton {display:inline-block}
+  .bot_activ_link {display:none}
 }
 
 @media (max-width: 640px) {
   span.searchbutton_icon {display:inline-block}
   span.searchbutton {display:none}
+  .bot_activ_link {display:inline-block}
+  .activ_link {display:none}
 }
 
 
 /* @media QUERY 
 @media all and (max-width: 1024px)           */
 /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)*/ 
-@media all and (max-width: 1024px)  
+/* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
+@media all and (max-width: 1024px)  */ 
+@media all and (max-width: 1024px)
 {
   body {
     background: #ffffff;
@@ -581,88 +627,52 @@ footer {
   header {
     display: flex;
     flex-wrap: wrap;
-    max-height: 130px;
-    min-height: 130px;
+    max-height: 20px;
+    min-height: 20px;
+    
   }
 
   .bloc_page {
-    max-width: 375px;
-    min-width: 375px;
+    width: auto;
     margin: auto;
     padding-left: 0px;
   }
-  nav ul {
-    list-style-type: none;
-    display: flex;
-  }
 
-  nav li {
-    margin-right: 5px;
-  }
-
-  nav a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 1.2em;
-    color: #0065fc;
-    padding-bottom: 3px;
-    text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .bloc_filtre {
+  form {
     font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
+    justify-content: center;
+    margin-top: 35px;
   }
 
-   form
-   {
-     max-width: 375px;
-   }
-
-  .searchbutton {
-    color: rgb(250, 252, 252);
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 1.2em;
-    background-color: #0065fc;
-    border-radius: 20px 20px 20px 20px;
-    border: #0065fc;
-    padding: 20px;
-    margin: 0;
-    width: 70px;
-  }
-  
   input {
     color: black;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     background-color: #ffffff;
     border: 5px #555050;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
-    padding: 20px 20px 22px 20px;
+    padding: 20px 20px 18px 20px;
     outline: none;
-    width: 240px;
+    width: 280px;
   }
-  #icon_search {
-    color: black;
-    font-size: 1.2em;
-    background-color: #f2f2f2;
-    border-radius: 20px 0px 0px 20px;
-    padding: 22px;
-    margin: 0;
-    width: 20px;
+
+  .bloc_filtre {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
   }
+
   .apercu {
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin-left: -25px;
+    
   }
 
   .flex_art {
@@ -685,23 +695,7 @@ footer {
     padding-right: 10px;
     padding-left: 10px;
   }
-  #activites {
-    width: 480px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: -10px;
-  }
-  .bloc_activites {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .colonne {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+ 
   footer {
     display: flex;
     background-color: #f2f2f2;
@@ -716,7 +710,7 @@ footer {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
@@ -809,3 +803,4 @@ footer {
     padding-bottom: 20px;
   }
 }
+*/
