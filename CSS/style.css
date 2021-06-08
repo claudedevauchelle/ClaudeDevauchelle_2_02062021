@@ -212,7 +212,13 @@ input {
   border-right: 2px solid #d9d9d9;
   border-radius: 40px;
   padding: 0;
-  max-height: 50px;
+  max-height: 46px;
+}
+
+.ecolink_row
+{
+  display: flex;
+  flex-direction: row;
 }
 
 .bloc_filtre a:hover {
@@ -220,16 +226,19 @@ input {
   background-color: #0065fc;
 }
 
+
+
 .icon_filtre
 {
   color: #0065fc;
   font-size: 1.2em;
   background: #deebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 40px;
-  padding: 19px 18px 18px 18px;
-  max-height: 48px;
-  min-width: 18px;
-  max-width: 20px;
+  height: 50px;
+  width: 50px;
 }
 
 .ecoword {
@@ -244,13 +253,17 @@ input {
   align-items: center;
 }
 
-.fas.fa-info {
+.fa-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #0065fc;
-  font-size: 1.2em;
+  font-size: 0.8em;
   background: #ffffff;
   border: 2px solid #d9d9d9;
   border-radius: 40px;
-  padding: 8px 14px 8px 14px;
+  height: 20px;
+  width: 20px;
   font-weight: bold;
   margin-right: 15px;
 }
@@ -615,7 +628,7 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */ 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px)
+@media all and (max-width: 1024px)
 {
   body {
     background: #ffffff;
@@ -634,14 +647,23 @@ footer {
     flex-wrap: wrap;
     max-height: 20px;
     min-height: 20px;
-    
   }
+
+
 
   .bloc_page {
     width: auto;
     margin: auto;
     padding-left: 0px;
   }
+
+.lieu
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 35px;
+}
 
   form {
     font-family: "Raleway", sans-serif;
@@ -669,10 +691,55 @@ footer {
   .bloc_filtre {
     font-family: "Raleway", sans-serif;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-direction: column;
+    align-items: flex-start;
     margin-top: 5px;
+    margin-bottom: 15px;
   }
+
+.ecolink_row
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.filtre_lieu {
+  color: black;
+  font-size: 1.2em;
+  padding: 0px;
+}
+
+.icon_filtre
+{
+  color: #0065fc;
+  font-size: 1.2em;
+  background: #deebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+}
+
+.ecolink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-top: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+  border-right: 2px solid #d9d9d9;
+  border-radius: 40px;
+  padding: 0;
+  max-height: 46px;
+  
+}
+
 
   .apercu {
     display: flex;
@@ -681,6 +748,7 @@ footer {
     
   }
 
+  
   .flex_art {
     display: flex;
     flex-direction: column;
