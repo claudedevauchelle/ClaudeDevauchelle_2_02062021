@@ -624,7 +624,7 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */
 
-@media all and (max-width: 1126px) {
+@media all and (max-width: 1300px) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
@@ -776,7 +776,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
-/* HEBRGEMENT MEDIA QUERY*/
+/* HEBRGEMENT MEDIA  ok QUERY*/
 
 
   #hebergement {
@@ -870,6 +870,7 @@ footer {
     margin-top: 5px;
   }
 
+<<<<<<< HEAD
   .nom_prix_pop {
     width: 190px;
     padding-top: 1px;
@@ -908,6 +909,21 @@ footer {
     justify-content: space-between;
   }
 
+=======
+#activites {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: -10px;
+
+.bloc_activites {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ 
+>>>>>>> main
   footer {
     display: flex;
     background-color: #f2f2f2;
