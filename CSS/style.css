@@ -702,6 +702,12 @@ footer {
     padding-left: 10px;
   }
 
+#activites {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: -10px;
+
 .bloc_activites {
   display: flex;
   flex-direction: column;
