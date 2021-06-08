@@ -148,7 +148,6 @@ span.searchbutton_icon > img {
   font-size: 1.2em;
   background-color: #0065fc;
   border-radius: 0% 20px 20px 0%;
-  border: #0065fc;
   padding: 20px;
   margin: 0;
 }
@@ -258,7 +257,6 @@ input {
 
 .infoword {
   font-family: "Raleway", sans-serif;
-  font-weight: medium;
 }
 
 /* section hebergement, populaire */
@@ -760,7 +758,6 @@ footer {
 
   .infoword {
     font-family: "Raleway", sans-serif;
-    font-weight: medium;
   }
   .apercu {
     display: flex;
