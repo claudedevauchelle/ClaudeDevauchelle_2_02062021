@@ -596,13 +596,13 @@ footer {
 /* ----  MEDIA QUERY -- */
 
 
-@media (min-width: 641px) {
+@media (min-width: 541px) {
   span.searchbutton_icon {display:none}
   span.searchbutton {display:inline-block}
   .bot_activ_link {display:none}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 540px) {
   span.searchbutton_icon {display:inline-block}
   span.searchbutton {display:none}
   .bot_activ_link {display:inline-block}
@@ -615,7 +615,7 @@ footer {
 /* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)*/ 
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */ 
-@media all and (max-width: 1024px)
+@media all and (max-width: 540px)
 {
   body {
     background: #ffffff;
@@ -665,6 +665,7 @@ footer {
     font-family: "Raleway", sans-serif;
     display: flex;
     flex-wrap: wrap;
+    
     margin-top: 5px;
   }
 
