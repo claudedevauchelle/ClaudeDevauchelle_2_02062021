@@ -780,8 +780,7 @@ footer {
 
 
   #hebergement {
-    order: 2;
-    background: #f2f2f2;
+    order: 2;background-color: white;
     max-width: 360px;
     min-width: 360px;
     padding-right: 10px;
@@ -870,7 +869,6 @@ footer {
     margin-top: 5px;
   }
 
-<<<<<<< HEAD
   .nom_prix_pop {
     width: 190px;
     padding-top: 1px;
@@ -891,11 +889,12 @@ footer {
   }
 
   #activites {
-    width: auto;
+    max-width: 360px;
+    min-width: 360px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-left: -10px;
+    margin-left: 20px;
   }
   .bloc_activites {
     display: flex;
@@ -909,26 +908,13 @@ footer {
     justify-content: space-between;
   }
 
-=======
-#activites {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-left: -10px;
-
-.bloc_activites {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
- 
->>>>>>> main
   footer {
     display: flex;
     background-color: #f2f2f2;
     color: black;
     font-family: "Raleway", sans-serif;
+    max-width: 375px;
+    min-width: 375px;
   }
 
   .infos {
