@@ -701,6 +701,13 @@ footer {
     padding-right: 10px;
     padding-left: 10px;
   }
+
+.bloc_activites {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
  
   footer {
     display: flex;
