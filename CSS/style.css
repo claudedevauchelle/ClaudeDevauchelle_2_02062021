@@ -556,7 +556,7 @@ footer {
   background-color: #f2f2f2;
   color: black;
   font-family: "Raleway", sans-serif;
-  width: 100%
+  width: 100%;
 }
 
 .infos {
@@ -732,7 +732,6 @@ footer {
     margin-left: ;
   }
 
-
   .ecolink {
     display: flex;
     flex-direction: row;
@@ -847,7 +846,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
- 
 
   .populaire_mobile {
     order: 1;
@@ -858,7 +856,6 @@ footer {
     padding-left: 35px;
     padding-right: 55px;
     padding-bottom: 20px;
-    
   }
 
   .nom_prix_pop {
@@ -879,8 +876,8 @@ footer {
   }
 
   #activites {
-    max-width: 360px;
-    min-width: 360px;
+    max-width: 375px;
+    min-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -897,6 +894,99 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .titre_activites {
+    padding-left: 15px;
+    padding-bottom: 1px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .nom_activite {
+    padding-left: 15px;
+    font-size: 0.7em;
+  }
+
+  .vign_caract_act {
+    margin: 15px 15px 15px 15px;
+    max-width: 330px;
+    min-width: 330px;
+    border-radius: 17px;
+    box-shadow: 6px 6px 6px rgb(231, 229, 229);
+  }
+
+  .link_caract_act {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    max-width: 330px;
+    min-width: 330px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .pict_caract_act {
+    border-radius: 14px 14px 0px 0px;
+    width: 330px;
+    object-fit: cover;
+  }
+
+  .link_act1 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_1 {
+    height: 135px;
+  }
+
+  .link_act2 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_2 {
+    height: 135px;
+  }
+
+  .link_act3 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_3 {
+    height: 135px;
+  }
+
+  .link_act4 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_4 {
+    height: 135px;
+  }
+
+  .link_act5 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_5 {
+    height: 135px;
+  }
+
+  .link_act6 {
+    max-height: 190px;
+    min-height: 190px;
+  }
+
+  .pict_activite_6 {
+    height: 135px;
   }
 
   footer {
