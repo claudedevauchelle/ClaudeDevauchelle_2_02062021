@@ -313,7 +313,6 @@ input {
   max-height: 190px;
   max-width: 235px;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
-  
 }
 
 .link_heb {
@@ -624,7 +623,7 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1024px) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
@@ -776,37 +775,35 @@ footer {
     display: flex;
     flex-direction: column;
   }
-/* HEBRGEMENT MEDIA  ok QUERY*/
-
+  /* HEBRGEMENT MEDIA  ok QUERY*/
 
   #hebergement {
-    order: 2;background-color: white;
+    order: 2;
     max-width: 360px;
     min-width: 360px;
     padding-right: 10px;
     padding-left: 10px;
   }
 
-
   .titre_apercu {
     padding-left: 20px;
     padding-top: 20px;
     font-size: 1.4em;
   }
-  
+
   .fa-chart-line {
     padding-left: 20px;
     padding-top: 40px;
     font-size: 1.4em;
     padding-right: 15px;
   }
-  
+
   .bot_apercu {
     padding-left: 20px;
     font-size: 1.2em;
     padding-bottom: 30px;
   }
-  
+
   .vignette_heb {
     margin: 16px;
     border-radius: 17px;
@@ -814,9 +811,8 @@ footer {
     max-height: 190px;
     max-width: 335px;
     box-shadow: 6px 6px 6px rgb(231, 229, 229);
-    
   }
-  
+
   .link_heb {
     display: flex;
     flex-direction: column;
@@ -831,33 +827,33 @@ footer {
     min-height: 190px;
     padding: 0px 0px 0px 0px;
   }
-  
+
   .pict_heb {
     border-radius: 14px 14px 0px 0px;
     width: 335px;
     height: 110px;
     object-fit: cover;
   }
-  
+
   .nom_prix {
     padding-left: 10px;
     line-height: 0.4em;
   }
-  
+
   .fa-star {
     color: #0065fc;
     font-size: 0.8em;
   }
-  
+
   .fa-star_grey {
     color: #d9d9d9;
   }
-  
+
   .flex_art {
     display: flex;
     flex-wrap: wrap;
   }
-/* HEBERGEMENT FIN*/
+  /* HEBERGEMENT FIN*/
 
   .populaire {
     order: 1;
@@ -877,14 +873,12 @@ footer {
     line-height: 0.6em;
   }
 
-  .par_pop
-  {
+  .par_pop {
     line-height: 1.2em;
     margin-bottom: 0.8px;
   }
 
-  .titre_pop
-  {
+  .titre_pop {
     line-height: 1.2em;
   }
 
@@ -901,7 +895,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .colonne {
     display: flex;
     flex-direction: column;
