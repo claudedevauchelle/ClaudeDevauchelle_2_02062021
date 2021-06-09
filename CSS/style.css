@@ -266,7 +266,7 @@ input {
 }
 
 .apercu {
-  max-width: 1300px;
+  max-width: 1330px;
   display: flex;
   justify-content: flex-start;
   margin-left: -20px;
@@ -444,7 +444,6 @@ input {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  
 }
 .bloc_activites {
   display: flex;
@@ -732,7 +731,6 @@ footer {
     padding-bottom: 10px;
     padding-left: 13px;
     padding-right: 13px;
-   
   }
 
   .ecolink {
@@ -771,7 +769,6 @@ footer {
     width: auto;
   }
 
-  
   .flex_art {
     display: flex;
     flex-direction: column;
@@ -908,7 +905,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
   }
 
   .titre_activites {
