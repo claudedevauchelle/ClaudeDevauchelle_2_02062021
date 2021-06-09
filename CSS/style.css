@@ -690,7 +690,6 @@ only screen and (min-width: 768px)
     flex-direction: row;
     justify-content: center;
     margin-top: 35px;
-    text-justify: ;
   }
 
   input {
