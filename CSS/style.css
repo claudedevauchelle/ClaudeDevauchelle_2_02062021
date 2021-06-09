@@ -753,7 +753,6 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: none;
     margin-left: 15px;
   }
 
