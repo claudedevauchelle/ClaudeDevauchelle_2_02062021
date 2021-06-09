@@ -777,6 +777,8 @@ only screen and (min-width: 768px)
 
   .infoword {
     font-family: "Raleway", sans-serif;
+    width: 360px;
+    text-align: justify;
   }
   .apercu {
     display: flex;
