@@ -600,6 +600,7 @@ footer {
   }
 }
 
+/* 
 @media (max-width: 540px) {
   span.searchbutton_icon {
     display: inline-block;
@@ -614,6 +615,7 @@ footer {
     display: none;
   }
 }
+*/
 
 /* @media QUERY 
 @media all and (max-width: 1024px)           */
@@ -621,7 +623,10 @@ footer {
 /* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
 @media all and (max-width: 1024px)  */
 
-@media all and (max-width: 1024px) {
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
