@@ -673,6 +673,16 @@ only screen and (min-width: 768px)
     width: auto;
   }
 
+  .titre_lieu {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 360px;
+  }
+
   form {
     font-family: "Raleway", sans-serif;
     display: flex;
