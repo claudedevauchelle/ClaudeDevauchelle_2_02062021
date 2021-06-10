@@ -196,6 +196,16 @@ input {
   padding-right: 15px;
 }
 
+.fa-money-bill-wave
+{
+  padding-left: 13px;
+}
+
+.fa-child
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
 .ecoword {
   font-weight: bold;
   padding-left: 15px;
@@ -604,13 +614,13 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    width: 400px;
+    width: auto;
     margin: 0px;
   }
 
   .bloc_page {
-    width: 400px;
-    margin: 0px;
+    width: auto;
+    /* margin: 0px; */
   }
 
 
@@ -627,91 +637,88 @@ only screen and (min-width: 768px)
   font-size: 0.7em;
 }
 
-.bot_activ_link {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.bot_activ_link a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 1.3em;
-  text-decoration: none;
-  color: #181818;
-  border-bottom: 4px solid #c3c5c7;
-  padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.bot_activ_link ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 0.8em;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.bot_activ_link a:hover {
-  color: #0065fc;
-  border-bottom: 4px solid #0065fc;
-  padding-bottom: 10px;
-}
-
-
-  .activ_link {
-    display: none;
-  }
-
   header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
     min-width: 320px;
     max-width: 375px;
-    padding-left: 15px;
     margin-top: 25px;
   }
 
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    font-size: 1em;
-  }
 
-  nav li {
-    margin-right: 1px;
-  }
-
-  nav a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    color: #0065fc;
-    padding-bottom: 3px;
-    text-decoration: none;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
   .sub_link {
     margin-right: 0px;
+    font-weight: bold;
+    font-size: 1em;
   }
 
   .lieu {
     display: flex;
     flex-direction: column;
+    min-width: 320px;
+    max-width: 375px;
+  }
+
+  .bot_activ_link {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .bot_activ_link a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #181818;
+    border-bottom: 4px solid #c3c5c7;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     width: auto;
+  }
+
+  .bot_activ_link ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    font-size: 0.8em;
+    padding: 0px;
+    width: auto;
+  }
+
+  .bot_activ_link a:hover {
+    color: #0065fc;
+    border-bottom: 4px solid #0065fc;
+    padding-bottom: 10px;
+  }
+
+
+
+  a.mini_activ_link1
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+  }
+
+  a.mini_activ_link2
+  {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 0px;
+  }
+
+
+  .activ_link {
+      display: none;
   }
 
   .titre_lieu {
@@ -720,14 +727,17 @@ only screen and (min-width: 768px)
     color: #181818;
     margin-top: 35px;
     margin-bottom: 10px;
-    padding: 0px;
-    font-size: 1.3em;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 1.1em;
+    width: 300px;
   }
 
   .phrase_section1
   {
-    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 0.8em;
   }
 
 
@@ -735,8 +745,8 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding-left: 15px;
   }
 
   input {
@@ -745,13 +755,35 @@ only screen and (min-width: 768px)
     font-weight: bold;
     background-color: #ffffff;
     border: 5px #555050;
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin: 0;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
-    padding: 20px 20px 18px 20px;
+    padding: 18px 20px 16px 20px;
     outline: none;
-    width: 250px;
+    width: 200px;
+  }
+
+  .searchbutton_icon,
+  .buttonbackground {
+    color: rgb(250, 252, 252);
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: #0065fc;
+    border-radius: 15px 15px 15px 15px;
+    padding: 18px;
+    margin-right: 15px;
+    margin-left: -15px;
+  }
+
+  #icon_search {
+    color: black;
+    font-size: 0.8em;
+    background-color: #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+    padding: 20px;
+    margin: 0px;
   }
 
   .bloc_filtre {
@@ -761,7 +793,7 @@ only screen and (min-width: 768px)
     align-items: flex-start;
     margin-top: 5px;
     margin-bottom: 15px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
   }
 
@@ -769,6 +801,7 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0px;
   }
 
   .filtre_lieu {
@@ -779,15 +812,57 @@ only screen and (min-width: 768px)
     margin-bottom: 5px;
   }
 
+  .ecoword
+  {
+    font-size: 0.7em;
+  }
+
   .icon_filtre {
     color: #0065fc;
-    font-size: 1.2em;
+    font-size: 0.8em;
     background: #deebff;
     border-radius: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .fa-money-bill-wave
+  {
+    padding-left: 13px;
+  }
+
+  .fa-child
+  {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .ecolink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-right: 2px solid #d9d9d9;
+    border-radius: 40px;
+    max-height: 39px;
+  }
+
+  .ligne_infos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
   }
   .fa-info {
     color: #0065fc;
@@ -797,46 +872,21 @@ only screen and (min-width: 768px)
     border-radius: 40px;
     font-weight: bold;
     margin-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .ecolink {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px;
-    color: black;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    border-top: 2px solid #d9d9d9;
-    border-bottom: 2px solid #d9d9d9;
-    border-right: 2px solid #d9d9d9;
-    border-radius: 40px;
-    max-height: 46px;
-  }
-
-  .ligne_infos {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-bottom: 20px;
-  }
-
   .infoword {
     font-family: "Raleway", sans-serif;
-    width: 300px;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    margin-top: 0px;
   }
+
   .apercu {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
     width: auto;
   }
 
@@ -934,13 +984,33 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     border-radius: 0px;
-    width: 375px;
     padding-bottom: 20px;
-    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.6em;
+    /* padding-left: 5px; */
   }
 
+  .top_pop_mobile {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: flex-start;
+   width: 350px;
+   margin: 0px;
+   padding-left: 0px;
+   padding-right: 5px;
+  }
+
+  .titre_apercu_pop {
+    padding-left: 0px;
+    padding-top: 20px;
+    font-size: 1.4em;
+  }
+
+
   .nom_prix_pop {
-    width: 190px;
+    width: 170px;
     padding-top: 1px;
     padding-right: 10px;
     padding-left: 15px;
