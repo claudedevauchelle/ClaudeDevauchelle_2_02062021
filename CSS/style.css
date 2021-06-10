@@ -621,6 +621,7 @@ only screen and (min-width: 768px)
     min-width: 320px;
     max-width: 375px;
     margin: 0px;
+    padding: 0px;
   }
 
   span.searchbutton_icon {
@@ -894,6 +895,7 @@ only screen and (min-width: 768px)
     justify-content: center;
     margin: auto;
     width: auto;
+    padding: auto;
   }
 
   .hebergement {
@@ -901,7 +903,6 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     min-width: 320px;
     max-width: 375px;
     margin: 0px;
@@ -952,7 +953,7 @@ only screen and (min-width: 768px)
 
   .pict_heb {
     border-radius: 14px 14px 0px 0px;
-    width: 310px;
+    width: 320px;
     height: 110px;
     object-fit: cover;
   }
@@ -971,11 +972,6 @@ only screen and (min-width: 768px)
     color: #d9d9d9;
   }
 
-  .flex_art {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .populaire_mobile {
     order: 1;
     display: flex;
@@ -990,6 +986,7 @@ only screen and (min-width: 768px)
     max-width: 375px;
     margin-left: 0px;
     margin-right: 0px;
+    background-color: #f2f2f2;
   }
 
   .top_pop_mobile {
@@ -1007,9 +1004,9 @@ only screen and (min-width: 768px)
   .flex_art_pop {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin: 0px;
-    padding: 0px;
+    justify-content: center;
+    margin: auto;
+    width: auto;
   }
 
   .fa-chart-line {
@@ -1052,8 +1049,7 @@ only screen and (min-width: 768px)
     border: 3px solid white;
     display: flex;
     box-shadow: 6px 6px 6px rgb(231, 229, 229);
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 16px;
   }
 
   .link_pop {
@@ -1073,21 +1069,20 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 0px;
     padding: 0px;
   }
   .bloc_activites {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: auto;
+    margin: 0px;
   }
 
   .colonne {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 0px;
   }
 
@@ -1197,7 +1192,7 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     min-width: 320px;
     max-width: 375px;
-    padding: 15px;
+    padding: 20px;
   }
 
   .infos {
@@ -1206,6 +1201,9 @@ only screen and (min-width: 768px)
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
