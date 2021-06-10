@@ -196,13 +196,11 @@ input {
   padding-right: 15px;
 }
 
-.fa-money-bill-wave
-{
+.fa-money-bill-wave {
   padding-left: 13px;
 }
 
-.fa-child
-{
+.fa-child {
   padding-left: 18px;
   padding-right: 18px;
 }
@@ -340,8 +338,8 @@ input {
   max-width: 420px;
   padding-right: 10px;
   padding-left: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .top_pop {
@@ -381,7 +379,6 @@ input {
 .pict_pop {
   border-radius: 14px 0px 0px 14px;
   width: 125px;
-  height: 135px;
   object-fit: cover;
 }
 
@@ -614,15 +611,17 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    width: auto;
+    min-width: 320px;
+    max-width: 375px;
     margin: 0px;
+    padding: 0px;
   }
 
   .bloc_page {
-    width: auto;
-    /* margin: 0px; */
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0px;
   }
-
 
   span.searchbutton_icon {
     display: inline-block;
@@ -631,28 +630,33 @@ only screen and (min-width: 768px)
     display: none;
   }
 
-.linktop
-{
-  margin-right: 5px;
-  font-size: 0.7em;
-}
+  .linktop {
+    margin-right: 5px;
+    font-size: 0.7em;
+  }
 
   header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     min-width: 320px;
     max-width: 375px;
     margin-top: 25px;
+    padding: 0px;
   }
 
-
+  .titre_principal {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
 
   .sub_link {
     margin-right: 0px;
     font-weight: bold;
     font-size: 1em;
+    padding: 0px;
   }
 
   .lieu {
@@ -665,7 +669,7 @@ only screen and (min-width: 768px)
   .bot_activ_link {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -700,25 +704,20 @@ only screen and (min-width: 768px)
     padding-bottom: 10px;
   }
 
-
-
-  a.mini_activ_link1
-  {
-    padding-left: 40px;
-    padding-right: 40px;
+  a.mini_activ_link1 {
+    padding-left: 55px;
+    padding-right: 50px;
     margin-left: 0px;
   }
 
-  a.mini_activ_link2
-  {
-    padding-right: 40px;
-    padding-left: 40px;
+  a.mini_activ_link2 {
+    padding-right: 55px;
+    padding-left: 50px;
     margin-right: 0px;
   }
 
-
   .activ_link {
-      display: none;
+    display: none;
   }
 
   .titre_lieu {
@@ -733,13 +732,11 @@ only screen and (min-width: 768px)
     width: 300px;
   }
 
-  .phrase_section1
-  {
+  .phrase_section1 {
     padding-left: 20px;
     padding-right: 10px;
     font-size: 0.8em;
   }
-
 
   form {
     font-family: "Raleway", sans-serif;
@@ -812,8 +809,7 @@ only screen and (min-width: 768px)
     margin-bottom: 5px;
   }
 
-  .ecoword
-  {
+  .ecoword {
     font-size: 0.7em;
   }
 
@@ -828,13 +824,11 @@ only screen and (min-width: 768px)
     padding-right: 15px;
   }
 
-  .fa-money-bill-wave
-  {
+  .fa-money-bill-wave {
     padding-left: 13px;
   }
 
-  .fa-child
-  {
+  .fa-child {
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -884,10 +878,13 @@ only screen and (min-width: 768px)
     margin-top: 0px;
   }
 
-  .apercu {
+  .apercu_heb_pop {
     display: flex;
     flex-direction: column;
-    width: auto;
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .flex_art {
@@ -905,26 +902,25 @@ only screen and (min-width: 768px)
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: auto;
-    margin: auto;
+    min-width: 320px;
+    max-width: 375px;
+    margin: 0px;
+    padding: 0px;
     background-color: white;
   }
 
   .titre_apercu {
-    padding-left: 20px;
+    align-self: flex-start;
+    padding-left: 35px;
     padding-top: 20px;
-    font-size: 1.4em;
-  }
-
-  .fa-chart-line {
-    padding-left: 20px;
-    padding-top: 40px;
-    font-size: 1.4em;
-    padding-right: 15px;
+    font-size: 1.1em;
+    padding-right: 0px;
+    margin: 0px;
   }
 
   .bot_apercu {
-    padding-left: 20px;
+    align-self: flex-start;
+    padding-left: 30px;
     font-size: 1.2em;
     padding-bottom: 30px;
   }
@@ -934,7 +930,7 @@ only screen and (min-width: 768px)
     border-radius: 17px;
     border: 3px solid white;
     max-height: 190px;
-    max-width: 335px;
+    max-width: 310px;
     box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
 
@@ -944,18 +940,19 @@ only screen and (min-width: 768px)
     align-items: flex-start;
     background: white;
     color: black;
+    font-size: 0.8em;
     text-decoration: none;
     border-radius: 13px;
     max-height: 190px;
-    max-width: 335px;
-    min-width: 335px;
+    max-width: 310px;
+    min-width: 310px;
     min-height: 190px;
     padding: 0px 0px 0px 0px;
   }
 
   .pict_heb {
     border-radius: 14px 14px 0px 0px;
-    width: 335px;
+    width: 310px;
     height: 110px;
     object-fit: cover;
   }
@@ -983,31 +980,53 @@ only screen and (min-width: 768px)
     order: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
     border-radius: 0px;
     padding-bottom: 20px;
+    font-size: 0.8em;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 320px;
+    max-width: 375px;
     margin-left: 0px;
     margin-right: 0px;
-    font-size: 0.6em;
-    /* padding-left: 5px; */
   }
 
   .top_pop_mobile {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: flex-start;
-   width: 350px;
-   margin: 0px;
-   padding-left: 0px;
-   padding-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    min-width: 320px;
+    max-width: 375px;
+  }
+
+  .flex_art_pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .fa-chart-line {
+    padding-left: 0px;
+    font-size: 1.4em;
+    padding-right: 10px;
+    padding-top: 0px;
   }
 
   .titre_apercu_pop {
-    padding-left: 0px;
-    padding-top: 20px;
-    font-size: 1.4em;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 1.3em;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-right: 0px;
   }
-
 
   .nom_prix_pop {
     width: 170px;
@@ -1026,14 +1045,37 @@ only screen and (min-width: 768px)
     line-height: 1.2em;
   }
 
+  .vignette_pop {
+    width: 310px;
+    height: 135px;
+    border-radius: 17px;
+    border: 3px solid white;
+    display: flex;
+    box-shadow: 6px 6px 6px rgb(231, 229, 229);
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .link_pop {
+    width: 310px;
+    height: 135px;
+    background: #ffffff;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+  }
+
   .activites {
-    width: auto;
+    min-width: 320px;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
   }
   .bloc_activites {
     display: flex;
@@ -1046,13 +1088,16 @@ only screen and (min-width: 768px)
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0px;
   }
 
   .titre_activites {
-    padding-left: 15px;
-    padding-bottom: 1px;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    align-self: flex-start;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
   }
 
   .nom_activite {
@@ -1062,8 +1107,8 @@ only screen and (min-width: 768px)
 
   .vign_caract_act {
     margin: 15px 15px 15px 15px;
-    max-width: 330px;
-    min-width: 330px;
+    max-width: 310px;
+    min-width: 310px;
     border-radius: 17px;
     box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
@@ -1076,14 +1121,14 @@ only screen and (min-width: 768px)
     color: black;
     text-decoration: none;
     border-radius: 13px;
-    max-width: 330px;
-    min-width: 330px;
+    max-width: 310px;
+    min-width: 310px;
     padding: 0px 0px 0px 0px;
   }
 
   .pict_caract_act {
     border-radius: 14px 14px 0px 0px;
-    width: 330px;
+    width: 310px;
     object-fit: cover;
   }
 
@@ -1146,11 +1191,13 @@ only screen and (min-width: 768px)
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0px;
     background-color: #f2f2f2;
     color: black;
     font-family: "Raleway", sans-serif;
-    width: 100%;
+    min-width: 320px;
+    max-width: 375px;
+    padding: 15px;
   }
 
   .infos {
