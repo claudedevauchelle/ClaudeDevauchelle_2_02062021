@@ -884,8 +884,7 @@ only screen and (min-width: 768px)
     flex-direction: column;
     min-width: 320px;
     max-width: 375px;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 0px;
   }
 
   .flex_art {
@@ -895,7 +894,6 @@ only screen and (min-width: 768px)
     justify-content: center;
     margin: auto;
     width: auto;
-    padding: auto;
   }
 
   .hebergement {
@@ -953,7 +951,7 @@ only screen and (min-width: 768px)
 
   .pict_heb {
     border-radius: 14px 14px 0px 0px;
-    width: 320px;
+    width: 310px;
     height: 110px;
     object-fit: cover;
   }
@@ -1075,7 +1073,6 @@ only screen and (min-width: 768px)
   .bloc_activites {
     display: flex;
     flex-direction: column;
-    padding: auto;
     margin: 0px;
   }
 
@@ -1192,18 +1189,18 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     min-width: 320px;
     max-width: 375px;
-    padding: 20px;
   }
 
   .infos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 20px;
     margin: auto;
-    padding-left: auto;
-    padding-right: auto;
+    min-width: 320px;
+    max-width: 350px;
+    padding-left: 15px;
   }
 }
 
