@@ -626,17 +626,16 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    min-width: 320px;
-    max-width: 375px;
+    width: 375px;
     margin: 0px;
-    padding: 0px;
   }
 
   .bloc_page {
-    min-width: 320px;
     max-width: 375px;
-    margin: 0px;
-    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
   }
 
   span.searchbutton_icon {
@@ -656,10 +655,7 @@ only screen and (min-width: 768px)
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    min-width: 320px;
-    max-width: 375px;
-    margin-top: 25px;
-    padding: 0px;
+    width: 375px;
   }
 
   .titre_principal {
@@ -1077,18 +1073,16 @@ only screen and (min-width: 768px)
   }
 
   .activites {
-    min-width: 320px;
-    max-width: 375px;
+    width: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
   }
   .bloc_activites {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    width: 370px;
   }
 
   .colonne {
@@ -1196,25 +1190,34 @@ only screen and (min-width: 768px)
   footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 0px;
     background-color: #f2f2f2;
     color: black;
     font-family: "Raleway", sans-serif;
-    min-width: 320px;
-    max-width: 375px;
+    width: 355px;
+    padding-left: 20px;
+    font-size: 1em;
   }
 
   .infos {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     padding-bottom: 20px;
-    margin: auto;
-    min-width: 320px;
-    max-width: 350px;
-    padding-left: 15px;
+    width: 220px;
   }
+
+  .liste_infos ul
+  {
+    margin: 0px;
+  }
+
+  .liste_infos
+  {
+    width: 250px;
+  }
+
 }
+
+
