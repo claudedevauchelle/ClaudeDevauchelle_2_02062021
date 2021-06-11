@@ -680,11 +680,7 @@ only screen and (min-width: 768px)
 
   .bot_activ_link {
     margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 375px;
   }
 
   .bot_activ_link a {
@@ -696,18 +692,15 @@ only screen and (min-width: 768px)
     padding-bottom: 10px;
     padding-left: 0px;
     padding-right: 0px;
-    width: auto;
   }
 
   .bot_activ_link ul {
-    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0px;
+    justify-content: space-around;
+    list-style-type: none;
     font-size: 0.8em;
+    width: 375px;
     padding: 0px;
-    width: auto;
   }
 
   .bot_activ_link a:hover {
@@ -716,16 +709,18 @@ only screen and (min-width: 768px)
     padding-bottom: 10px;
   }
 
+  .bot_activ_link li
+  {
+  }
+
   a.mini_activ_link1 {
-    padding-left: 55px;
-    padding-right: 50px;
-    margin-left: 0px;
+    padding-left: 56px;
+    padding-right: 29px;
   }
 
   a.mini_activ_link2 {
-    padding-right: 55px;
-    padding-left: 50px;
-    margin-right: 0px;
+    padding-right: 82px;
+    padding-left: 54px;
   }
 
   .activ_link {
@@ -991,8 +986,7 @@ only screen and (min-width: 768px)
     font-size: 0.8em;
     padding-left: 0px;
     padding-right: 0px;
-    min-width: 320px;
-    max-width: 375px;
+    width: 378px;
     margin-left: 0px;
     margin-right: 0px;
     background: #f2f2f2;
@@ -1003,11 +997,10 @@ only screen and (min-width: 768px)
     flex-wrap: wrap;
     align-content: space-between;
     margin-left: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
-    min-width: 320px;
-    max-width: 375px;
+    width: 335px;
   }
 
   .flex_art_pop {
