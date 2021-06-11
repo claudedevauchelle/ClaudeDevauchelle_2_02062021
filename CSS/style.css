@@ -5,11 +5,16 @@ body {
   background: #ffffff;
   font-family: "Raleway", sans-serif;
   color: #181818;
+  margin: 0px;
+  width: 1440px;
 }
 
 .bloc_page {
   max-width: 1440px;
-  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 /* Header*/
@@ -17,10 +22,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 1340px;
   padding: 0px;
-  margin: 0px
-
+  margin: 0px;
 }
 
 .titre_principal {
@@ -96,7 +100,7 @@ nav a:hover {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 5px;
 }
 
@@ -107,7 +111,7 @@ form {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 span.searchbutton_icon > img {
@@ -220,6 +224,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .fa-info {
@@ -250,19 +255,15 @@ input {
 }
 
 .apercu {
-  max-width: 1300px;
+  max-width: 1340px;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 0px;
+  justify-content: space-between;
 }
 
 .hebergement {
   background: #f2f2f2;
   border-radius: 20px;
-  max-width: 820px;
-  margin: auto;
-  padding-right: 10px;
-  padding-left: 10px;
+  width: 880px;
 }
 
 .titre_apercu {
@@ -332,7 +333,7 @@ input {
 .flex_art {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -341,9 +342,7 @@ input {
 .populaire {
   background: #f2f2f2;
   border-radius: 20px;
-  max-width: 420px;
-  padding-right: 10px;
-  padding-left: 10px;
+  width: 420px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -352,13 +351,13 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-right: 15px;
+  width: 370px;
+  margin-right: 0px;
 }
 
 .flex_art_pop {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .vignette_pop {
@@ -423,15 +422,18 @@ input {
 /* activités */
 
 .activites {
-  max-width: 1300px;
+  width: 1340px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 .bloc_activites {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 1340px;
 }
 
 .colonne {
@@ -441,10 +443,9 @@ input {
 }
 
 .titre_activites {
-  padding-left: 15px;
-  padding-bottom: 1px;
+  padding-bottom: 0px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .nom_activite {
@@ -453,7 +454,6 @@ input {
 }
 
 .vign_caract_act {
-  margin: 15px 15px 15px 15px;
   max-width: 300px;
   border-radius: 17px;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
@@ -539,8 +539,14 @@ footer {
   background-color: #f2f2f2;
   color: black;
   font-family: "Raleway", sans-serif;
-  width: 1440px;
+  width: 1390px;
   justify-content: flex-start;
+  margin-top: 0px;
+  padding-top: 40px;
+  margin-left: -50px;
+  padding-left: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .infos {
@@ -550,12 +556,14 @@ footer {
 
 .liste_infos {
   width: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .infos_titre {
   font-size: 1em;
-  padding-left: 40px;
-  padding-top: 10px;
 }
 
 .liste_infos a {
@@ -567,6 +575,7 @@ footer {
 
 .liste_infos ul {
   list-style-type: none;
+  padding: 0px;
 }
 
 /* ----  MEDIA QUERY -- */
@@ -1209,6 +1218,3 @@ only screen and (min-width: 768px)
     padding-left: 15px;
   }
 }
-
-
-
