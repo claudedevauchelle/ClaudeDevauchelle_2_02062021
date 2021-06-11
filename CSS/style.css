@@ -164,7 +164,7 @@ input {
 .bloc_filtre {
   font-family: "Raleway", sans-serif;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 5px;
 }
 .ecolink {
@@ -1203,5 +1203,36 @@ only screen and (min-width: 768px)
 
   .liste_infos {
     width: 250px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  body {
+    background: #ffffff;
+    font-family: "Raleway", sans-serif;
+    color: #181818;
+    font-size: 1.2em;
+    width: 768px;
+    margin: 0px;
+  }
+
+  .bloc_page {
+    max-width: 768px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  header
+  {
+    width: 768px;
+  }
+
+  .bloc_filtre
+  {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
