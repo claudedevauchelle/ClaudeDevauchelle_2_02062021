@@ -460,7 +460,6 @@ input {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .colonne {
@@ -1255,7 +1254,6 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    max-width: 768px;
     width: 100%;
     margin: auto;
   }
@@ -1263,17 +1261,37 @@ only screen and (min-width: 768px)
   .bloc_page {
     max-width: 768px;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: auto;
   }
 
   header {
     max-width: 758px;
-    width: 100%;
+    width: 97%;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .linktop
+  {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+  }
+
+  nav ul li a
+  {
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    padding: 1px
+  }
+
+  .lieu
+  {
+    max-width: 758px;
+    width: 97%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1312,13 +1330,13 @@ only screen and (min-width: 768px)
   }
 
   .dog_tablet {
-    margin-left: 100px;
+    margin-left: 78px;
   }
 
   .apercu {
     display: flex;
     flex-direction: column;
-    max-width: 758px;
+    max-width: 768px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -1328,8 +1346,18 @@ only screen and (min-width: 768px)
     order: 2;
     display: flex;
     flex-direction: column;
-    width: 758px;
+    max-width: 758px;
+    width: 100%;
     background: white;
+    margin-right: 3px;
+  }
+
+  .top_pop
+  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 768px;
+    width: 95%;
   }
 
   .vignette_heb {
@@ -1369,30 +1397,36 @@ only screen and (min-width: 768px)
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
+    max-width: 748px;
+    width: 95%;
   }
 
   .populaire {
     order: 1;
     display: flex;
     flex-direction: column;
-    width: 772px;
+    width: 100%;
+    max-width: 768px;
     border-radius: 0px;
+    margin: auto;
+    padding-bottom: 20px;
   }
   .flex_art_pop {
     font-size: 0.8em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    height: 360px;
+    justify-content: space-around;
+    max-width: 748px;
+    width: 95%;
+    margin: auto;
   }
 
   .vignette_pop {
     margin: 0px;
     width: 340px;
+    margin: 5px;
   }
 
   .link_pop {
@@ -1400,7 +1434,9 @@ only screen and (min-width: 768px)
   }
 
   .activites {
-    width: 748px;
+    max-width: 748px;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1408,8 +1444,8 @@ only screen and (min-width: 768px)
   }
 
   .titre_activites {
-    width: 600px;
-    padding-left: 20px;
+    max-width: 500px;
+    width: 95%;
   }
 
   .bloc_activites {
@@ -1417,33 +1453,20 @@ only screen and (min-width: 768px)
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    width: 758px;
+    max-width: 758px;
+    width: 100%;
+    margin: 0px;
   }
 
   .colonne {
     width: 330px;
     margin-bottom: 20px;
   }
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;
-    background-color: #f2f2f2;
-    color: black;
-    font-family: "Raleway", sans-serif;
-    width: 768px;
-    padding-left: 10px;
-    font-size: 1em;
-  }
+
 
   .infos {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-bottom: 30px;
-    width: 600px;
+    max-width: 758px;
+    font-size: 0.8em;
   }
 
   .liste_infos ul {
