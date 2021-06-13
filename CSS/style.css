@@ -94,8 +94,6 @@ nav a:hover {
   margin-top: 5px;
   max-width: 1340px;
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -173,14 +171,14 @@ input {
 .filtre_lieu {
   color: black;
   font-size: 1.2em;
-  padding: 10px;
 }
 
 .bloc_filtre {
   font-family: "Raleway", sans-serif;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 5px;
   max-width: 1000px;
   width: 100%;
@@ -278,7 +276,7 @@ input {
   width: 100%;
   max-width: 1340px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .hebergement {
@@ -287,8 +285,6 @@ input {
   max-width: 880px;
   width: 97%;
   margin-right: 5px;
-  margin-left: auto;
-
 }
 
 .titre_apercu {
@@ -452,7 +448,7 @@ input {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 60px;
 }
