@@ -847,6 +847,7 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     margin: 0px;
   }
 
@@ -1226,10 +1227,6 @@ only screen and (min-width: 768px)
     height: 135px;
   }
 
-  footer {
-    
-  }
-
   .infos {
     display: flex;
     flex-direction: column;
@@ -1327,10 +1324,6 @@ only screen and (min-width: 768px)
   .ecolink {
     margin: 10px;
     justify-content: center;
-  }
-
-  .dog_tablet {
-    margin-left: 78px;
   }
 
   .apercu {
