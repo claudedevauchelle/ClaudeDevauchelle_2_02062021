@@ -5,16 +5,20 @@ body {
   background: #ffffff;
   font-family: "Raleway", sans-serif;
   color: #181818;
-  margin: 0px;
-  width: 1440px;
+  margin: auto;
+  width: 100%;
 }
 
 .bloc_page {
   max-width: 1440px;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 50px;
   margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /* Header*/
@@ -22,7 +26,10 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  width: 1340px;
+  max-width: 1340px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0px;
   margin: 0px;
 }
@@ -85,6 +92,13 @@ nav a:hover {
 /* Corps */
 .lieu {
   margin-top: 5px;
+  max-width: 1340px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .titre_lieu {
@@ -112,6 +126,7 @@ form {
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 span.searchbutton_icon > img {
@@ -165,13 +180,15 @@ input {
   font-family: "Raleway", sans-serif;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-top: 5px;
+  max-width: 1000px;
+  width: 100%;
 }
 .ecolink {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 30px;
   color: black;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -188,6 +205,9 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  max-width: 400px;
+  width: 100%;
 }
 
 .bloc_filtre a:hover {
@@ -255,15 +275,20 @@ input {
 }
 
 .apercu {
+  width: 100%;
   max-width: 1340px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .hebergement {
   background: #f2f2f2;
   border-radius: 20px;
-  width: 880px;
+  max-width: 880px;
+  width: 97%;
+  margin-right: 5px;
+  margin-left: auto;
+
 }
 
 .titre_apercu {
@@ -342,9 +367,10 @@ input {
 .populaire {
   background: #f2f2f2;
   border-radius: 20px;
-  width: 420px;
-  margin-left: 0px;
-  margin-right: 0px;
+  max-width: 420px;
+  width: 97%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .top_pop {
@@ -422,7 +448,8 @@ input {
 /* activités */
 
 .activites {
-  width: 1340px;
+  max-width: 1340px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -433,13 +460,20 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1340px;
+  max-width: 1340px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .colonne {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 5px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .titre_activites {
@@ -455,6 +489,9 @@ input {
 
 .vign_caract_act {
   max-width: 300px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 17px;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
@@ -468,13 +505,18 @@ input {
   text-decoration: none;
   border-radius: 13px;
   max-width: 300px;
-  min-width: 300px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0px 0px 0px 0px;
 }
 
 .pict_caract_act {
   border-radius: 14px 14px 0px 0px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   object-fit: cover;
 }
 
@@ -535,31 +577,36 @@ input {
 /* FOOTER  */
 
 footer {
-  display: flex;
-  background-color: #f2f2f2;
+  background: #f2f2f2;
   color: black;
   font-family: "Raleway", sans-serif;
-  width: 1390px;
-  justify-content: flex-start;
+  width: 100%;
   margin-top: 0px;
-  padding-top: 40px;
-  margin-left: -50px;
-  padding-left: 50px;
-  padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
 }
 
 .infos {
   display: flex;
+  justify-content: flex-start;
   padding-bottom: 20px;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
 }
 
 .liste_infos {
-  width: 430px;
+  max-width: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
 }
 
 .infos_titre {
@@ -1212,22 +1259,27 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    width: 768px;
-    margin: 0px;
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
   }
 
   .bloc_page {
     max-width: 768px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
   header {
-    width: 758px;
+    max-width: 758px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   form {
@@ -1248,7 +1300,10 @@ only screen and (min-width: 768px)
   }
 
   .bloc_filtre {
-    width: 758px;
+    max-width: 758px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -1267,6 +1322,10 @@ only screen and (min-width: 768px)
   .apercu {
     display: flex;
     flex-direction: column;
+    max-width: 758px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .hebergement {
