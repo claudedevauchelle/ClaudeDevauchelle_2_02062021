@@ -703,6 +703,7 @@ only screen and (min-width: 768px)
     justify-content: space-between;
     max-width: 540px;
     width: 95%;
+    margin-bottom: 30px;
   }
 
   .titre_principal {
@@ -721,38 +722,40 @@ only screen and (min-width: 768px)
   .lieu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 540px;
-    width: 95%;
+    width: 100%;
+    margin: auto;
   }
 
   .bot_activ_link {
-    margin: auto;
-    max-width: 540px;
-    width: 100%;
     display: flex;
-    justify-content: space-around;
-  }
-
-  .bot_activ_link a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    color: #181818;
-    border-bottom: 4px solid #c3c5c7;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .bot_activ_link ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    font-size: 0.8em;
     max-width: 540px;
     width: 100%;
     padding: 0px;
     margin: 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .bot_activ_link a {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-decoration: none;
+    color: #181818;
+    max-width: 540px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: content-box;
   }
 
   .bot_activ_link a:hover {
@@ -761,29 +764,11 @@ only screen and (min-width: 768px)
     padding-bottom: 10px;
   }
 
-  a.mini_activ_link1 {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  a.mini_activ_link2 {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .mini_activ_link1
-  {
-    max-width: 180px;
-    width: 100%;
-    margin: 0px;
-  }
-
-
-  .mini_activ_link2
-  {
-    max-width: 180px;
-    width: 100%;
-    margin: 0px;
+  .mini_activ_link {
+    box-sizing: border-box;
+    width: 50%;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f2f2f2;
   }
 
   .activ_link {
@@ -796,7 +781,7 @@ only screen and (min-width: 768px)
     color: #181818;
     margin-top: 35px;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 0px;
     font-size: 1.1em;
     width: 300px;
@@ -814,7 +799,7 @@ only screen and (min-width: 768px)
     flex-direction: row;
     margin-top: 10px;
     padding-left: 15px;
-    max-width: 540px;
+    max-width: 300px;
     width: 90%;
   }
 
@@ -857,12 +842,15 @@ only screen and (min-width: 768px)
   .bloc_filtre {
     font-family: "Raleway", sans-serif;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
     margin-top: 5px;
     margin-bottom: 15px;
-    margin-left: 5px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    width: 90%;
   }
 
   .ecolink_row {
