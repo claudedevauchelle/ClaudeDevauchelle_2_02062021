@@ -668,12 +668,13 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     color: #181818;
     font-size: 1.2em;
-    width: 375px;
-    margin: 0px;
+    width: 100%;
+    margin: auto;
   }
 
   .bloc_page {
-    max-width: 375px;
+    max-width: 540px;
+    width: 100%;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
@@ -697,7 +698,8 @@ only screen and (min-width: 768px)
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 375px;
+    max-width: 540px;
+    width: 100%;
   }
 
   .titre_principal {
@@ -716,13 +718,14 @@ only screen and (min-width: 768px)
   .lieu {
     display: flex;
     flex-direction: column;
-    min-width: 320px;
-    max-width: 375px;
+    max-width: 540px;
+    width: 100%;
   }
 
   .bot_activ_link {
     margin-top: 30px;
-    width: 375px;
+    max-width: 540px;
+    width: 100%;
   }
 
   .bot_activ_link a {
@@ -741,7 +744,8 @@ only screen and (min-width: 768px)
     justify-content: space-around;
     list-style-type: none;
     font-size: 0.8em;
-    width: 375px;
+    max-width: 540px;
+    width: 100%;
     padding: 0px;
   }
 
@@ -926,8 +930,8 @@ only screen and (min-width: 768px)
   .apercu_heb_pop {
     display: flex;
     flex-direction: column;
-    min-width: 320px;
-    max-width: 375px;
+    max-width: 540px;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -945,8 +949,8 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 320px;
-    max-width: 375px;
+    max-width: 540px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background-color: white;
@@ -1024,9 +1028,9 @@ only screen and (min-width: 768px)
     font-size: 0.8em;
     padding-left: 0px;
     padding-right: 0px;
-    width: 378px;
-    margin-left: 0px;
-    margin-right: 0px;
+    max-width: 540px;
+    width: 100%;
+    margin: auto;
     background: #f2f2f2;
   }
 
@@ -1104,7 +1108,9 @@ only screen and (min-width: 768px)
   }
 
   .activites {
-    width: 370px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1112,8 +1118,10 @@ only screen and (min-width: 768px)
   .bloc_activites {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0px;
-    width: 370px;
+    max-width: 540px;
+    width: 100%;
   }
 
   .colonne {
@@ -1219,15 +1227,7 @@ only screen and (min-width: 768px)
   }
 
   footer {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    background-color: #f2f2f2;
-    color: black;
-    font-family: "Raleway", sans-serif;
-    width: 355px;
-    padding-left: 20px;
-    font-size: 1em;
+    
   }
 
   .infos {
@@ -1248,7 +1248,7 @@ only screen and (min-width: 768px)
   }
 }
 
-@media (min-width: 560px) and (max-width: 768px) {
+@media (min-width: 541px) and (max-width: 768px) {
   body {
     background: #ffffff;
     font-family: "Raleway", sans-serif;
