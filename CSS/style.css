@@ -120,9 +120,11 @@ form {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  align-content: center;
   margin-top: 25px;
   margin-bottom: 20px;
 }
+
 
 span.searchbutton_icon > img {
   height: 32px;
@@ -161,11 +163,21 @@ input {
   padding-left: 15px;
 }
 
+span.logomap
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  box-sizing: border-box;
+  height: 62px;
+}
+
 :focus {
   outline: transparent;
 }
 
-.icon_search {
+i.icon_search {
   color: black;
   font-size: 1.2em;
   background-color: #f2f2f2;
@@ -177,7 +189,6 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
 }
 
 /* filtres lieux*/
