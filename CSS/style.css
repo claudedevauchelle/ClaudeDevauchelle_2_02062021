@@ -12,10 +12,7 @@ body {
 .bloc_page {
   max-width: 1440px;
   width: 96%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin: 50px auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -30,8 +27,8 @@ header {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .titre_principal {
@@ -56,7 +53,7 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  padding: 0px;
+  padding: 0;
 }
 
 nav li {
@@ -82,7 +79,7 @@ nav a:hover {
 
 .sub_link {
   font-weight: 600;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .activ_link {
@@ -131,16 +128,20 @@ span.searchbutton_icon > img {
   height: 32px;
 }
 
-.searchbutton_icon,
-.buttonbackground {
+span.buttonbackground {
   color: rgb(250, 252, 252);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 1.2em;
   background-color: #0065fc;
-  border-radius: 0% 20px 20px 0%;
-  padding: 20px;
+  border-radius: 0 20px 20px 0;
   margin: 0;
+  width: 146px;
+  box-sizing: border-box;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
@@ -148,22 +149,34 @@ input {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   background-color: #ffffff;
-  border: 5px #555050;
   font-size: 1.2em;
   margin: 0;
-  border-top: 1px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
-  padding: 20px 20px 18px 20px;
-  outline: none;
+  border-left: 0;
+  border-right: 0;
   width: 230px;
+  box-sizing: border-box;
+  height: 62px;
+  padding-left: 15px;
 }
-#icon_search {
+
+:focus {
+  outline: transparent;
+}
+
+.icon_search {
   color: black;
   font-size: 1.2em;
   background-color: #f2f2f2;
-  border-radius: 20px 0px 0px 20px;
-  padding: 22px;
+  border-radius: 20px 0 0 20px;
   margin: 0;
+  width: 58px;
+  box-sizing: border-box;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* filtres lieux*/
@@ -218,10 +231,7 @@ input {
   font-size: 1.2em;
   background: #deebff;
   border-radius: 40px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
 
 .fa-money-bill-wave {
@@ -253,10 +263,7 @@ input {
   border-radius: 40px;
   font-weight: bold;
   margin-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 10px 13px 10px 13px;
 }
 
 .infoword {
@@ -327,11 +334,11 @@ input {
   max-width: 235px;
   min-width: 235px;
   min-height: 190px;
-  padding: 0px 0px 0px 0px;
+  padding: 0;
 }
 
 .pict_heb {
-  border-radius: 14px 14px 0px 0px;
+  border-radius: 14px 14px 0 0;
   width: 235px;
   height: 110px;
   object-fit: cover;
@@ -373,7 +380,7 @@ input {
   align-items: flex-start;
   max-width: 420px;
   width: 100%;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .flex_art_pop {
@@ -390,6 +397,7 @@ input {
   border: 3px solid white;
   display: flex;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
+  box-sizing: border-box;
 }
 
 .link_pop {
@@ -629,9 +637,7 @@ footer {
   span.searchbutton_icon {
     display: none;
   }
-  span.searchbutton {
-    display: inline-block;
-  }
+
   .bot_activ_link {
     display: none;
   }
@@ -685,7 +691,7 @@ only screen and (min-width: 768px)
   }
 
   span.searchbutton_icon {
-    display: inline-block;
+    display: flex;
   }
   span.searchbutton {
     display: none;
@@ -794,49 +800,39 @@ only screen and (min-width: 768px)
   }
 
   form {
-    font-family: "Raleway", sans-serif;
-    display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 10px;
-    padding-left: 15px;
     max-width: 300px;
     width: 90%;
   }
 
   input {
-    color: black;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    background-color: #ffffff;
-    border: 5px #555050;
     font-size: 0.8em;
-    margin: 0;
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
-    padding: 18px 20px 16px 20px;
-    outline: none;
-    width: 200px;
+    width: 170px;
   }
 
-  .searchbutton_icon,
-  .buttonbackground {
+  span.buttonbackground {
     color: rgb(250, 252, 252);
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 1em;
     background-color: #0065fc;
-    border-radius: 15px 15px 15px 15px;
-    padding: 18px;
-    margin-left: -15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 62px;
+    height: 62px;
   }
 
-  #icon_search {
+  .icon_search {
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     background-color: #f2f2f2;
     border-radius: 20px 0px 0px 20px;
-    padding: 20px;
-    margin: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 62px;
+    height: 62px;
   }
 
   .bloc_filtre {
