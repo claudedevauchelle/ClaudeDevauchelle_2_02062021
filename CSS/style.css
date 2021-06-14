@@ -274,13 +274,13 @@ i.icon_search {
 }
 
 /* section hebergement, populaire */
-h2.titre_heb {
+.titre_heb {
   font-size: 1em;
   margin: 0;
   padding: 0;
 }
 
-p.par_heb {
+.par_heb {
   font-size: 0.8em;
   margin: 0;
   padding: 0 0 0 0;
@@ -449,7 +449,7 @@ p.par_pop {
   margin: 0;
 }
 
-h2.titre_pop {
+.titre_pop {
   font-size: 0.9em;
   padding: 0;
   margin: 0;
@@ -497,7 +497,7 @@ h2.titre_pop {
 }
 
 .titre_activites {
-  padding-bottom: 0px;
+  padding-bottom: 0;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -528,11 +528,11 @@ h2.titre_pop {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
 }
 
 .pict_caract_act {
-  border-radius: 14px 14px 0px 0px;
+  border-radius: 14px 14px 0 0;
   max-width: 300px;
   width: 100%;
   margin-right: auto;
@@ -601,11 +601,8 @@ footer {
   color: black;
   font-family: "Raleway", sans-serif;
   width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 0px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 0;
 }
 
 .infos {
@@ -642,10 +639,10 @@ footer {
 
 .liste_infos ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
-/* ----  MEDIA QUERY -- */
+/* ----  MEDIA QUERY -- *//* ----  MEDIA QUERY -- *//* ----  MEDIA QUERY -- */
 
 @media (min-width: 541px) {
   span.searchbutton_icon {
@@ -656,34 +653,6 @@ footer {
     display: none;
   }
 }
-
-/*
-@media (max-width: 540px) {
-  span.searchbutton_icon {
-    display: inline-block;
-  }
-  span.searchbutton {
-    display: none;
-  }
-  .bot_activ_link {
-    display: inline-block;
-  }
-  .activ_link {
-    display: none;
-  }
-}
-*/
-
-/* @media QUERY
-@media all and (max-width: 1024px)           */
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px)*/
-/* @media only screen and (min-device-width: 641px) and (max-device-width: 640px)
-@media all and (max-width: 1024px)
-#mobile
-@media all and (max-device-width: 480px)
-# Tablet
-only screen and (min-width: 768px)
-*/
 
 @media all and (max-width: 540px) {
   body {
@@ -730,10 +699,10 @@ only screen and (min-width: 768px)
   }
 
   .sub_link {
-    margin-right: 0px;
+    margin-right: 0;
     font-weight: bold;
     font-size: 1em;
-    padding: 0px;
+    padding: 0;
   }
 
   .lieu {
@@ -750,8 +719,8 @@ only screen and (min-width: 768px)
     display: flex;
     max-width: 540px;
     width: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
@@ -796,12 +765,12 @@ only screen and (min-width: 768px)
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #181818;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    margin: 35px auto 10px auto;
     padding-left: 10px;
-    padding-right: 0px;
+    padding-right: 0;
     font-size: 1.1em;
     width: 300px;
+    box-sizing: border-box;
   }
 
   .phrase_section1 {
@@ -840,7 +809,7 @@ only screen and (min-width: 768px)
     color: black;
     font-size: 1em;
     background-color: #f2f2f2;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0 0 20px;
     margin: 0;
     box-sizing: border-box;
     width: 62px;
@@ -853,10 +822,7 @@ only screen and (min-width: 768px)
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto 15px auto;
     max-width: 380px;
     width: 90%;
   }
@@ -866,13 +832,13 @@ only screen and (min-width: 768px)
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 0px;
+    margin: 0;
   }
 
   .filtre_lieu {
     color: black;
     font-size: 1.2em;
-    padding: 0px;
+    padding: 0;
     margin-left: 10px;
     margin-bottom: 5px;
   }
@@ -943,7 +909,7 @@ only screen and (min-width: 768px)
   .infoword {
     font-family: "Raleway", sans-serif;
     font-size: 0.7em;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .apercu {
@@ -972,8 +938,8 @@ only screen and (min-width: 768px)
     align-items: center;
     max-width: 540px;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-color: white;
   }
 
@@ -982,8 +948,8 @@ only screen and (min-width: 768px)
     padding-left: 35px;
     padding-top: 20px;
     font-size: 1.1em;
-    padding-right: 0px;
-    margin: 0px;
+    padding-right: 0;
+    margin: 0;
   }
 
   .bot_apercu {
@@ -1018,11 +984,11 @@ only screen and (min-width: 768px)
     max-width: 310px;
     min-width: 310px;
     min-height: 190px;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
   }
 
   .pict_heb {
-    border-radius: 14px 14px 0px 0px;
+    border-radius: 14px 14px 0 0;
     width: 310px;
     height: 110px;
     object-fit: cover;
@@ -1043,7 +1009,7 @@ only screen and (min-width: 768px)
     flex-direction: column;
     width: 100%;
     max-width: 768px;
-    border-radius: 0px;
+    border-radius: 0;
     margin: auto;
     padding-bottom: 20px;
   }
@@ -1052,7 +1018,7 @@ only screen and (min-width: 768px)
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    margin-left: 0px;
+    margin-left: 0;
     padding-top: 20px;
     max-width: 540px;
     width: 95%;
@@ -1068,23 +1034,19 @@ only screen and (min-width: 768px)
   }
 
   .fa-chart-line {
-    padding-left: 0px;
+    padding-left: 0;
     font-size: 1.4em;
-    padding-right: 0px;
-    padding-top: 0px;
+    padding-right: 0;
+    padding-top: 0;
   }
 
   .titre_apercu_pop {
-    padding-left: 10px;
-    padding-top: 0px;
+    padding: 0 0 0 10px;
     font-size: 1.3em;
-    padding-bottom: 0px;
-    margin: 0px;
-    padding-right: 0px;
+    margin: 0;
   }
 
-  .grouptext_pop
-  {
+  .grouptext_pop {
     font-size: 0.8em;
   }
 
@@ -1111,6 +1073,7 @@ only screen and (min-width: 768px)
   }
 
   .vignette_pop {
+    box-sizing: border-box;
     max-width: 310px;
     width: 100%;
     height: 135px;
@@ -1137,7 +1100,7 @@ only screen and (min-width: 768px)
   .activites {
     max-width: 540px;
     width: 100%;
-    margin: 0px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1146,7 +1109,7 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
+    margin: 0;
     max-width: 540px;
     width: 100%;
   }
@@ -1155,14 +1118,14 @@ only screen and (min-width: 768px)
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px;
+    margin: 0;
   }
 
   .titre_activites {
     align-self: flex-start;
     padding-left: 30px;
-    padding-bottom: 0px;
-    margin-top: 0px;
+    padding-bottom: 0;
+    margin-top: 0;
     margin-bottom: 10px;
     font-size: 1.2em;
   }
@@ -1190,11 +1153,11 @@ only screen and (min-width: 768px)
     border-radius: 13px;
     max-width: 310px;
     min-width: 310px;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
   }
 
   .pict_caract_act {
-    border-radius: 14px 14px 0px 0px;
+    border-radius: 14px 14px 0 0;
     width: 310px;
     object-fit: cover;
   }
@@ -1263,13 +1226,15 @@ only screen and (min-width: 768px)
   }
 
   .liste_infos ul {
-    margin: 0px;
+    margin: 0;
   }
 
   .liste_infos {
     width: 250px;
   }
 }
+
+/* ----  MEDIA QUERY -- *//* ----  MEDIA QUERY -- *//* ----  MEDIA QUERY -- */
 
 @media (min-width: 541px) and (max-width: 768px) {
   body {
@@ -1290,10 +1255,7 @@ only screen and (min-width: 768px)
   header {
     max-width: 758px;
     width: 97%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 30px auto 30px auto;
   }
 
   .linktop {
