@@ -123,8 +123,9 @@ form {
   align-content: center;
   margin-top: 25px;
   margin-bottom: 20px;
+  max-width: 450px;
+  width: 100%;
 }
-
 
 span.searchbutton_icon > img {
   height: 32px;
@@ -163,8 +164,7 @@ input {
   padding-left: 15px;
 }
 
-span.logomap
-{
+span.logomap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -815,8 +815,8 @@ only screen and (min-width: 768px)
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
-    max-width: 300px;
-    width: 90%;
+    max-width: 475px;
+    width: 100%;
   }
 
   input {
@@ -834,6 +834,7 @@ only screen and (min-width: 768px)
     box-sizing: border-box;
     width: 62px;
     height: 62px;
+    margin-left: -10px;
   }
 
   .icon_search {
@@ -946,12 +947,13 @@ only screen and (min-width: 768px)
     margin-top: 0px;
   }
 
-  .apercu_heb_pop {
+  .apercu {
     display: flex;
     flex-direction: column;
-    max-width: 540px;
+    max-width: 768px;
     width: 100%;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .flex_art {
@@ -1045,16 +1047,11 @@ only screen and (min-width: 768px)
     order: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    max-width: 768px;
     border-radius: 0px;
-    padding-bottom: 20px;
-    font-size: 0.8em;
-    padding-left: 0px;
-    padding-right: 0px;
-    max-width: 540px;
-    width: 96%;
     margin: auto;
-    background: #f2f2f2;
+    padding-bottom: 20px;
   }
 
   .top_pop_mobile {
