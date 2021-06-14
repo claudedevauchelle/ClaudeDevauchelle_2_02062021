@@ -123,7 +123,7 @@ form {
   align-content: center;
   margin-top: 25px;
   margin-bottom: 20px;
-  max-width: 450px;
+  max-width: 475px;
   width: 100%;
 }
 
@@ -399,7 +399,7 @@ i.icon_search {
 .flex_art_pop {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .vignette_pop {
@@ -542,12 +542,14 @@ p.par_pop {
   object-fit: cover;
 }
 
-.link_act1 {
+.link_act1,
+.link_act4 {
   max-height: 445px;
   min-height: 445px;
 }
 
-.pict_activite_1 {
+.pict_activite_1,
+.pict_activite_4 {
   height: 385px;
 }
 
@@ -567,15 +569,6 @@ p.par_pop {
 
 .pict_activite_3 {
   height: 110px;
-}
-
-.link_act4 {
-  max-height: 445px;
-  min-height: 445px;
-}
-
-.pict_activite_4 {
-  height: 385px;
 }
 
 .link_act5 {
@@ -658,12 +651,7 @@ footer {
 
 @media all and (max-width: 540px) {
   body {
-    background: #ffffff;
-    font-family: "Raleway", sans-serif;
-    color: #181818;
     font-size: 1.2em;
-    width: 100%;
-    margin: auto;
   }
 
   .bloc_page {
@@ -685,35 +673,27 @@ footer {
   }
 
   header {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     max-width: 540px;
     width: 95%;
     margin-bottom: 30px;
   }
 
   .titre_principal {
-    display: flex;
-    flex-direction: column;
     padding-left: 15px;
   }
 
   .sub_link {
-    margin-right: 0;
     font-weight: bold;
     font-size: 1em;
     padding: 0;
   }
 
   .lieu {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 540px;
-    width: 100%;
     margin: auto;
   }
 
@@ -729,7 +709,6 @@ footer {
   }
 
   .bot_activ_link a {
-    font-family: "Raleway", sans-serif;
     font-size: 0.8em;
     font-weight: 400;
     text-decoration: none;
@@ -753,8 +732,6 @@ footer {
   }
 
   .mini_activ_link {
-    box-sizing: border-box;
-    width: 50%;
     padding-bottom: 10px;
     border-bottom: 4px solid #f2f2f2;
   }
@@ -764,9 +741,6 @@ footer {
   }
 
   .titre_lieu {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    color: #181818;
     margin: 35px auto 10px auto;
     padding-left: 10px;
     padding-right: 0;
@@ -785,8 +759,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
-    max-width: 475px;
-    width: 100%;
   }
 
   input {
@@ -796,7 +768,6 @@ footer {
 
   span.buttonbackground {
     color: rgb(250, 252, 252);
-    font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1em;
     background-color: #0065fc;
@@ -807,39 +778,20 @@ footer {
     margin-left: -10px;
   }
 
-  .icon_search {
-    color: black;
-    font-size: 1em;
-    background-color: #f2f2f2;
-    border-radius: 20px 0 0 20px;
-    margin: 0;
-    box-sizing: border-box;
-    width: 62px;
-    height: 62px;
-  }
-
   .bloc_filtre {
-    font-family: "Raleway", sans-serif;
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
     margin: 5px auto 15px auto;
     max-width: 380px;
     width: 90%;
   }
 
   .ecolink_row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: flex-start;
     margin: 0;
   }
 
   .filtre_lieu {
-    color: black;
-    font-size: 1.2em;
     padding: 0;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -850,10 +802,7 @@ footer {
   }
 
   .icon_filtre {
-    color: #0065fc;
     font-size: 0.8em;
-    background: #deebff;
-    border-radius: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -870,61 +819,36 @@ footer {
   }
 
   .ecolink {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin: 5px;
-    color: black;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    border-top: 2px solid #d9d9d9;
-    border-bottom: 2px solid #d9d9d9;
-    border-right: 2px solid #d9d9d9;
-    border-radius: 40px;
     max-height: 39px;
   }
 
   .ligne_infos {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     margin-left: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
     width: 300px;
   }
+
   .fa-info {
-    color: #0065fc;
     font-size: 0.6em;
-    background: #ffffff;
-    border: 2px solid #d9d9d9;
-    border-radius: 40px;
-    font-weight: bold;
-    margin-right: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 6px 10px 6px 10px;
   }
 
   .infoword {
-    font-family: "Raleway", sans-serif;
     font-size: 0.7em;
     margin-top: 0;
   }
 
   .apercu {
-    display: flex;
     flex-direction: column;
     max-width: 768px;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .flex_art {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -948,7 +872,6 @@ footer {
   .titre_apercu {
     align-self: flex-start;
     padding-left: 35px;
-    padding-top: 20px;
     font-size: 1.1em;
     padding-right: 0;
     margin: 0;
@@ -957,43 +880,23 @@ footer {
   .bot_apercu {
     align-self: flex-start;
     padding-left: 30px;
-    font-size: 1.2em;
-    padding-bottom: 30px;
   }
 
   .vignette_heb {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 17px;
-    border: 3px solid white;
-    max-height: 190px;
     max-width: 310px;
     width: 100%;
-    box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
 
   .link_heb {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background: white;
-    color: black;
-    font-size: 0.8em;
-    text-decoration: none;
-    border-radius: 13px;
-    max-height: 190px;
     max-width: 310px;
     min-width: 310px;
-    min-height: 190px;
-    padding: 0 0 0 0;
   }
 
   .pict_heb {
-    border-radius: 14px 14px 0 0;
     width: 310px;
-    height: 110px;
-    object-fit: cover;
   }
 
   .fa-star {
@@ -1017,7 +920,6 @@ footer {
   }
 
   .top_pop_mobile {
-    display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     margin-left: 0;
@@ -1027,8 +929,6 @@ footer {
   }
 
   .flex_art_pop {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     margin: auto;
     max-width: 540px;
@@ -1037,7 +937,6 @@ footer {
 
   .fa-chart-line {
     padding-left: 0;
-    font-size: 1.4em;
     padding-right: 0;
     padding-top: 0;
   }
@@ -1045,7 +944,6 @@ footer {
   .titre_apercu_pop {
     padding: 0 0 0 10px;
     font-size: 1.3em;
-    margin: 0;
   }
 
   .grouptext_pop {
@@ -1075,13 +973,8 @@ footer {
   }
 
   .vignette_pop {
-    box-sizing: border-box;
     max-width: 310px;
     width: 100%;
-    height: 141px;
-    border-radius: 17px;
-    border: 3px solid white;
-    display: flex;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -1089,35 +982,22 @@ footer {
 
   .link_pop {
     width: 310px;
-    height: 135px;
-    background: #ffffff;
-    color: black;
-    font-size: 1.2em;
-    text-decoration: none;
-    border-radius: 13px 13px 13px 13px;
-    display: flex;
   }
 
   .activites {
     max-width: 540px;
-    width: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
+
   .bloc_activites {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     max-width: 540px;
-    width: 100%;
   }
 
   .colonne {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     margin: 0;
   }
@@ -1140,89 +1020,40 @@ footer {
     margin: 15px 15px 15px 15px;
     max-width: 310px;
     min-width: 310px;
-    border-radius: 17px;
-    box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
 
   .link_caract_act {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background: rgb(255, 255, 255);
-    color: black;
-    text-decoration: none;
     border-radius: 13px;
     max-width: 310px;
     min-width: 310px;
-    padding: 0 0 0 0;
   }
 
   .pict_caract_act {
-    border-radius: 14px 14px 0 0;
     width: 310px;
-    object-fit: cover;
   }
 
-  .link_act1 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  .pict_activite_1 {
-    height: 135px;
-  }
-
-  .link_act2 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  .pict_activite_2 {
-    height: 135px;
-  }
-
-  .link_act3 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  .pict_activite_3 {
-    height: 135px;
-  }
-
-  .link_act4 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  .pict_activite_4 {
-    height: 135px;
-  }
-
-  .link_act5 {
-    max-height: 190px;
-    min-height: 190px;
-  }
-
-  .pict_activite_5 {
-    height: 135px;
-  }
-
+  .link_act1,
+  .link_act2,
+  .link_act3,
+  .link_act4,
+  .link_act5,
   .link_act6 {
     max-height: 190px;
     min-height: 190px;
   }
 
+  .pict_activite_1,
+  .pict_activite_2,
+  .pict_activite_3,
+  .pict_activite_4,
+  .pict_activite_5,
   .pict_activite_6 {
     height: 135px;
   }
 
   .infos {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    padding-bottom: 20px;
     width: 220px;
   }
 
@@ -1239,12 +1070,7 @@ footer {
 
 @media (min-width: 541px) and (max-width: 768px) {
   body {
-    background: #ffffff;
-    font-family: "Raleway", sans-serif;
-    color: #181818;
     font-size: 1.2em;
-    width: 100%;
-    margin: auto;
   }
 
   .bloc_page {
@@ -1273,8 +1099,6 @@ footer {
   }
 
   nav a:hover {
-    color: #0065fc;
-    border-top: 4px solid #0065fc;
     padding-top: 45px;
   }
 
@@ -1286,8 +1110,6 @@ footer {
   }
 
   form {
-    display: flex;
-    justify-content: flex-start;
     margin-bottom: 30px;
     margin-top: 40px;
   }
@@ -1304,13 +1126,10 @@ footer {
 
   .bloc_filtre {
     max-width: 758px;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
   }
 
   .ecolink {
@@ -1319,10 +1138,8 @@ footer {
   }
 
   .apercu {
-    display: flex;
     flex-direction: column;
     max-width: 768px;
-    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1333,54 +1150,30 @@ footer {
     flex-direction: column;
     max-width: 758px;
     width: 100%;
-    background: white;
     margin-right: 3px;
   }
 
   .top_pop {
-    display: flex;
-    justify-content: space-between;
     max-width: 768px;
     width: 95%;
   }
 
   .vignette_heb {
-    margin: 16px;
-    border-radius: 17px;
-    border: 3px solid white;
-    max-height: 190px;
     max-width: 260px;
-    box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
 
   .link_heb {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background: white;
-    color: black;
     font-size: 0.8em;
-    text-decoration: none;
-    border-radius: 13px;
-    max-height: 190px;
     max-width: 260px;
     min-width: 260px;
-    min-height: 190px;
-    padding: 0 0 0 0;
   }
 
   .pict_heb {
-    border-radius: 14px 14px 0 0;
     width: 260px;
-    height: 110px;
-    object-fit: cover;
   }
 
   .flex_art {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     margin: auto;
     max-width: 748px;
     width: 95%;
@@ -1396,13 +1189,11 @@ footer {
     margin: auto;
     padding-bottom: 20px;
   }
+
   .flex_art_pop {
     font-size: 0.8em;
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     max-width: 748px;
     width: 95%;
     margin: auto;
@@ -1419,10 +1210,7 @@ footer {
 
   .activites {
     max-width: 748px;
-    width: 100%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
@@ -1430,15 +1218,13 @@ footer {
   .titre_activites {
     max-width: 500px;
     width: 95%;
+    padding-left: 20px;
   }
 
   .bloc_activites {
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
     max-width: 758px;
-    width: 100%;
     margin: 0;
   }
 
