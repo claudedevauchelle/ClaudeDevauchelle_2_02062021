@@ -989,7 +989,7 @@ footer {
     flex-direction: column;
     max-width: 768px;
     min-width: 320px;
-    width: 95%%;
+    width: 95%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1064,8 +1064,7 @@ footer {
     margin-left: auto;
   }
 
-  .colonne_heb
-  {
+  .colonne_heb {
     max-width: 435px;
   }
 
@@ -1160,8 +1159,7 @@ footer {
     max-width: 435px;
     width: 100%;
   }
-  .pict_caract_act
-  {
+  .pict_caract_act {
     max-width: 435px;
     width: 100%;
   }
