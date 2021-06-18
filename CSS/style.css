@@ -24,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   max-width: 1440px;
+  min-width: 1024px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -290,6 +291,8 @@ i.icon_search {
   width: 100%;
   max-width: 1440px;
   display: flex;
+  min-width: 1024px;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -297,8 +300,28 @@ i.icon_search {
   background: #f2f2f2;
   border-radius: 20px;
   max-width: 950px;
-  width: 97%;
-  margin-right: 5px;
+  width: 70%;
+  margin: 0 10px 0 0;
+}
+
+.flex_art {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 950px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.colonne_heb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px;
+  max-width: 245px;
+  height: 400px;
+  width: 100%;
 }
 
 .titre_apercu {
@@ -321,11 +344,13 @@ i.icon_search {
 }
 
 .vignette_heb {
-  margin: 16px;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 17px;
   border: 3px solid white;
   max-height: 190px;
   max-width: 235px;
+  width: 100%;
   box-shadow: 6px 6px 6px rgb(231, 229, 229);
 }
 
@@ -339,16 +364,18 @@ i.icon_search {
   border-radius: 13px;
   max-height: 190px;
   max-width: 235px;
-  min-width: 235px;
-  min-height: 190px;
+  width: 100%;
   padding: 0;
 }
 
 .pict_heb {
   border-radius: 14px 14px 0 0;
-  width: 235px;
+  max-width: 235px;
+  width: 100%;
   height: 110px;
   object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nom_prix {
@@ -358,7 +385,8 @@ i.icon_search {
   flex-direction: column;
   justify-content: space-around;
   box-sizing: border-box;
-  width: 235px;
+  max-width: 235px;
+  width: 100%;
   height: 70px;
 }
 
@@ -371,20 +399,14 @@ i.icon_search {
   color: #d9d9d9;
 }
 
-.flex_art {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-
 /* section populaire */
 
 .populaire {
   background: #f2f2f2;
   border-radius: 20px;
   max-width: 420px;
-  width: 97%;
+  width: 30%;
+  margin: 0 auto 0 10px;
 }
 
 .top_pop {
@@ -393,48 +415,60 @@ i.icon_search {
   align-items: flex-start;
   max-width: 420px;
   width: 100%;
-  margin-right: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .flex_art_pop {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  max-width: 345px;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .vignette_pop {
-  width: 335px;
-  height: 141px;
-  margin: 15px;
   border-radius: 17px;
   border: 3px solid white;
-  display: flex;
-  box-shadow: 6px 6px 6px rgb(231, 229, 229);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
+  max-height: 141px;
+  max-width: 335px;
+  width: 100%;
+  margin: auto;
 }
 
 .link_pop {
-  width: 335px;
-  height: 135px;
-  background: #ffffff;
-  color: black;
-  font-size: 1.2em;
-  text-decoration: none;
-  border-radius: 13px 13px 13px 13px;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 13px;
+  max-height: 141px;
+  max-width: 335px;
+  width: 100%;
+  padding: 0;
 }
 
 .pict_pop {
   border-radius: 14px 0 0 14px;
-  width: 125px;
+  max-width: 125px;
+  width: 100%;
+  height: 130px;
   object-fit: cover;
+  margin: 0;
 }
 
 .end_star_pop {
   font-size: 1em;
-  width: 150px;
+  max-width: 150px;
+  width: 100%;
   height: 18px;
   box-sizing: border-box;
 }
@@ -461,17 +495,17 @@ p.par_pop {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  max-width: 160px;
+  max-width: 140px;
   width: 100%;
   height: 130px;
   padding-left: 10px;
-  box-sizing: border-box;
 }
 
 /* activités */
 
 .activites {
   max-width: 1440px;
+  min-width: 1024px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -596,6 +630,7 @@ footer {
   color: black;
   font-family: "Raleway", sans-serif;
   width: 100%;
+  min-width: 1024px;
   margin: 0 auto 0 auto;
   padding-bottom: 0;
 }
@@ -637,6 +672,105 @@ footer {
   padding: 0;
 }
 
+@media all and (max-width: 1024px) {
+  .bloc_page {
+    max-width: 1024px;
+    min-width: 540px;
+    width: 100%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  header {
+    max-width: 1024px;
+    min-width: 540px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .lieu {
+    max-width: 1024px;
+    min-width: 540px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .apercu {
+    flex-direction: column;
+    max-width: 1024px;
+    min-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hebergement {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    width: 100%;
+    margin-right: 3px;
+    background: #f2f2f2;
+    border-radius: 20px;
+  }
+
+  .flex_art {
+    flex-direction: row;
+    margin: auto;
+    max-width: 1024px;
+    width: 95%;
+  }
+
+  .populaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 0;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+  }
+
+  .flex_art_pop {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1024px;
+    width: 95%;
+    margin: auto;
+    height: auto;
+  }
+
+  .activites {
+    max-width: 1024px;
+    min-width: 768px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .titre_activites {
+    max-width: 1000px;
+    width: 95%;
+    padding-left: 20px;
+  }
+
+  .bloc_activites {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0;
+  }
+  footer {
+    width: 100%;
+    min-width: 0;
+    margin: 0 auto 0 auto;
+    padding-bottom: 0;
+  }
+}
+
 /* ----  MEDIA QUERY -- */ /* ----  MEDIA QUERY -- */ /* ----  MEDIA QUERY -- */
 
 @media (min-width: 541px) {
@@ -656,6 +790,7 @@ footer {
 
   .bloc_page {
     max-width: 540px;
+    min-width: 320px;
     width: 100%;
     margin: auto;
   }
@@ -676,6 +811,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     max-width: 540px;
+    min-width: 320px;
     width: 95%;
     margin-bottom: 30px;
   }
@@ -694,7 +830,9 @@ footer {
     justify-content: center;
     align-items: center;
     max-width: 540px;
+    min-width: 320px;
     margin: auto;
+    width: 100%;
   }
 
   .bot_activ_link {
@@ -742,10 +880,10 @@ footer {
 
   .titre_lieu {
     margin: 35px auto 10px auto;
-    padding-left: 10px;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 1.1em;
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
   }
 
@@ -758,12 +896,17 @@ footer {
   form {
     flex-direction: row;
     justify-content: center;
-    margin-top: 10px;
+    width: 100%;
+    max-width: 520px;
+    min-width: 260px;
+    margin: 10px auto 0 auto;
   }
 
   input {
     font-size: 0.8em;
-    width: 170px;
+    min-width: 150px;
+    max-width: 320px;
+    width: 100%;
   }
 
   span.buttonbackground {
@@ -782,7 +925,7 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 5px auto 15px auto;
-    max-width: 380px;
+    max-width: 520px;
     width: 90%;
   }
 
@@ -792,7 +935,7 @@ footer {
   }
 
   .filtre_lieu {
-    padding: 0;
+    padding: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
   }
@@ -828,7 +971,8 @@ footer {
     margin-left: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 300px;
+    max-width: 500px;
+    width: 100%;
   }
 
   .fa-info {
@@ -844,6 +988,8 @@ footer {
   .apercu {
     flex-direction: column;
     max-width: 768px;
+    min-width: 320px;
+    width: 95%%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -867,6 +1013,7 @@ footer {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    font-size: 0.8em;
   }
 
   .titre_apercu {
@@ -883,20 +1030,43 @@ footer {
   }
 
   .vignette_heb {
-    margin-bottom: 10px;
-    margin-left: auto;
     margin-right: auto;
-    max-width: 310px;
+    margin-left: auto;
+    border-radius: 17px;
+    border: 3px solid white;
+    max-height: 190px;
+    max-width: 435px;
     width: 100%;
+    box-shadow: 6px 6px 6px rgb(231, 229, 229);
   }
 
   .link_heb {
-    max-width: 310px;
-    min-width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 13px;
+    max-height: 190px;
+    max-width: 435px;
+    width: 100%;
+    padding: 0;
   }
 
   .pict_heb {
-    width: 310px;
+    border-radius: 14px 14px 0 0;
+    max-width: 435px;
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .colonne_heb
+  {
+    max-width: 435px;
   }
 
   .fa-star {
@@ -919,6 +1089,25 @@ footer {
     padding-bottom: 20px;
   }
 
+  .vignette_pop {
+    max-width: 475px;
+  }
+
+  .link_pop {
+    max-width: 475px;
+    justify-content: flex-start;
+    align-content: space-around;
+  }
+
+  .grouptext_pop {
+    max-width: 300px;
+    align-content: flex-start;
+  }
+
+  .nom_prix_pop {
+    max-width: 300px;
+  }
+
   .top_pop_mobile {
     flex-wrap: wrap;
     align-content: space-between;
@@ -930,9 +1119,11 @@ footer {
 
   .flex_art_pop {
     justify-content: center;
+    align-content: space-around;
     margin: auto;
-    max-width: 540px;
+    max-width: 435px;
     width: 95%;
+    height: 500px;
   }
 
   .fa-chart-line {
@@ -946,46 +1137,10 @@ footer {
     font-size: 1.3em;
   }
 
-  .grouptext_pop {
-    font-size: 0.8em;
-  }
-
-  .nom_prix_pop {
-    max-width: 170px;
-    width: 100%;
-    line-height: 0.6em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  p.par_pop {
-    line-height: 1.2em;
-    margin-bottom: 0.8px;
-    padding: 5px 0 0 0;
-    margin: 0;
-  }
-
-  h2.titre_pop {
-    line-height: 1.2em;
-    padding: 0;
-    margin: 0;
-  }
-
-  .vignette_pop {
-    max-width: 310px;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .link_pop {
-    width: 310px;
-  }
-
   .activites {
     max-width: 540px;
+    min-width: 320px;
+    width: 95%;
     margin: 0;
     align-items: center;
   }
@@ -995,11 +1150,20 @@ footer {
     align-items: center;
     margin: 0;
     max-width: 540px;
+    min-width: 320px;
+    width: 100%;
   }
 
   .colonne {
     align-items: center;
     margin: 0;
+    max-width: 435px;
+    width: 100%;
+  }
+  .pict_caract_act
+  {
+    max-width: 435px;
+    width: 100%;
   }
 
   .titre_activites {
@@ -1018,18 +1182,14 @@ footer {
 
   .vign_caract_act {
     margin: 15px 15px 15px 15px;
-    max-width: 310px;
+    max-width: 435px;
     min-width: 310px;
   }
 
   .link_caract_act {
     border-radius: 13px;
-    max-width: 310px;
+    max-width: 435px;
     min-width: 310px;
-  }
-
-  .pict_caract_act {
-    width: 310px;
   }
 
   .link_act1,
@@ -1063,6 +1223,7 @@ footer {
 
   .liste_infos {
     width: 250px;
+    padding: 0;
   }
 }
 
@@ -1081,6 +1242,7 @@ footer {
 
   header {
     max-width: 758px;
+    min-width: 540px;
     width: 97%;
     margin: 30px auto 30px auto;
   }
@@ -1146,6 +1308,7 @@ footer {
 
   .hebergement {
     order: 2;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
     max-width: 758px;
@@ -1154,30 +1317,9 @@ footer {
     background: #ffffff;
   }
 
-  .top_pop {
-    max-width: 768px;
-    width: 95%;
-  }
-
-  .vignette_heb {
-    max-width: 260px;
-  }
-
-  .link_heb {
-    font-size: 0.8em;
-    max-width: 260px;
-    min-width: 260px;
-  }
-
-  .pict_heb {
-    width: 260px;
-  }
-
   .flex_art {
-    flex-direction: row;
-    margin: auto;
-    max-width: 748px;
-    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .populaire {
@@ -1191,33 +1333,16 @@ footer {
     padding-bottom: 20px;
   }
 
-  .flex_art_pop {
-    font-size: 0.8em;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 748px;
-    width: 95%;
-    margin: auto;
-  }
-
-  .vignette_pop {
-    width: 340px;
-    margin: 5px;
-  }
-
-  .link_pop {
-    width: 340px;
-  }
-
   .activites {
-    max-width: 748px;
+    max-width: 768px;
+    min-width: 540px;
     margin: auto;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 
   .titre_activites {
-    max-width: 500px;
+    max-width: 768px;
     width: 95%;
     padding-left: 20px;
   }
@@ -1225,15 +1350,9 @@ footer {
   .bloc_activites {
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 758px;
+    max-width: 768px;
     margin: 0;
   }
-
-  .colonne {
-    width: 330px;
-    margin-bottom: 20px;
-  }
-
   .infos {
     max-width: 758px;
     font-size: 0.8em;
